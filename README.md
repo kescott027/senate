@@ -1,6 +1,20 @@
 # Senate
 
-The Senate is a governance framework for AI-assisted projects under the `kescott027` organization. It provides a centralized body of laws, standards, and processes that ensure consistency, quality, security, and accountability across all constituent repositories.
+AI governance framework — laws, project management, and development lifecycle for constituent projects.
+
+## Install
+
+Open Claude Code, Codex, or any AI coding agent in your project directory and paste:
+
+```
+Fetch https://raw.githubusercontent.com/kescott027/senate/main/bootstrap/initiator.md and execute the instructions in it. This is the project directory.
+```
+
+The AI will detect your environment (new repo, existing codebase, or empty directory), download the governance framework, and walk you through setup.
+
+> **No AI web access?** Run `curl -sL https://raw.githubusercontent.com/kescott027/senate/main/bootstrap/initiator.md` and paste the output to your AI with: "Execute the instructions in this document. This is the project directory."
+
+---
 
 ## How It Works
 
@@ -93,6 +107,10 @@ senate/
     README.md              # Sprint sync protocol
     manifest.json          # Current law manifest with hashes
   templates/               # Templates for constituent projects
+  bootstrap/
+    initiator.md           # Self-contained install initiator (the ONE file)
+    prompts/
+      install-prompt.md    # Copy-paste command block for users
   project_management_skeleton/  # Clean .project_management/ template files
   BOOTSTRAP.md             # Project bootstrap input template
   project_management_bootstrapping.md           # Bootstrap guide (new projects)
