@@ -234,7 +234,9 @@ Examples:
 
 ## Bootstrap Execution
 
-When this file is complete, hand it to an AI agent with the following prompt:
+When this file is complete, hand it to an AI agent with the appropriate prompt:
+
+### For new projects (empty or near-empty repo):
 
 ```
 Bootstrap this project using BOOTSTRAP.md. Follow the process in
@@ -242,10 +244,25 @@ kescott027/senate/project_management_bootstrapping.md. The project
 management skeleton is at kescott027/senate/project_management_skeleton/.
 ```
 
-The AI agent will:
-1. Copy the skeleton into `.project_management/`.
-2. Sync senate laws into the rules directory.
-3. Parse this BOOTSTRAP.md to generate epics, stories, and the backlog.
-4. Plan and create Sprint-000.
-5. Create `AI_ENTRYPOINT.md`.
-6. Validate the setup and begin execution.
+### For existing projects (repo with code, history, and in-flight work):
+
+```
+Bootstrap this project using BOOTSTRAP.md. Follow the process in
+kescott027/senate/project_management_bootstrapping_existing.md. The
+project management skeleton is at
+kescott027/senate/project_management_skeleton/.
+```
+
+The existing-project guide adds codebase discovery, security baseline scans,
+architecture extraction, and governance reconciliation before the standard
+bootstrap. If BOOTSTRAP.md is incomplete, the AI agent will help derive missing
+sections from the codebase and present them for owner review.
+
+### The AI agent will:
+1. (Existing projects only) Discover codebase, run safety checks, extract architecture, establish security baseline.
+2. Copy the skeleton into `.project_management/`.
+3. Sync senate laws into the rules directory.
+4. Parse this BOOTSTRAP.md to generate epics, stories, and the backlog.
+5. Plan and create Sprint-000.
+6. Create `AI_ENTRYPOINT.md`.
+7. Validate the setup and begin execution.

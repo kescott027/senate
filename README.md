@@ -55,6 +55,23 @@ The senate was founded with 13 seed laws (LAW-000 through LAW-012) covering:
 | LAW-011 | Blocker Management |
 | LAW-012 | Bill Submission Process |
 
+## Bootstrapping New Projects
+
+The senate provides a complete bootstrapping framework for bringing projects under governance:
+
+- [**BOOTSTRAP.md**](BOOTSTRAP.md) -- Template for project owners to define vision, architecture, deliverables, and backlog
+- [**project_management_bootstrapping.md**](project_management_bootstrapping.md) -- AI execution guide for **new projects** (empty or near-empty repos)
+- [**project_management_bootstrapping_existing.md**](project_management_bootstrapping_existing.md) -- AI execution guide for **existing projects** (repos with code, history, and in-flight work)
+- [**project_management_skeleton/**](project_management_skeleton/) -- Clean template files for `.project_management/`
+
+### Which guide to use?
+
+| Situation | Guide |
+|-----------|-------|
+| Brand new repo, no code yet | `project_management_bootstrapping.md` |
+| Existing repo with code and history | `project_management_bootstrapping_existing.md` |
+| Existing `.project_management/` needs senate integration | See "Governance Upgrade Path" appendix in the existing project guide |
+
 ## Repository Structure
 
 ```
@@ -76,6 +93,10 @@ senate/
     README.md              # Sprint sync protocol
     manifest.json          # Current law manifest with hashes
   templates/               # Templates for constituent projects
+  project_management_skeleton/  # Clean .project_management/ template files
+  BOOTSTRAP.md             # Project bootstrap input template
+  project_management_bootstrapping.md           # Bootstrap guide (new projects)
+  project_management_bootstrapping_existing.md  # Bootstrap guide (existing projects)
   .github/
     ISSUE_TEMPLATE/        # Bill, feedback, and override templates
     workflows/             # GitHub Actions (to be added)

@@ -2,7 +2,9 @@
 
 ## Purpose
 
-This document provides step-by-step instructions for an AI agent to construct and execute `.project_management/` in a new or existing project. It is the canonical reference for how to go from a raw `BOOTSTRAP.md` to a fully operational, governed development cycle.
+This document provides step-by-step instructions for an AI agent to construct and execute `.project_management/` in a **new project** (empty or near-empty repository). It is the canonical reference for how to go from a raw `BOOTSTRAP.md` to a fully operational, governed development cycle.
+
+> **Existing projects with code and history**: Use [`project_management_bootstrapping_existing.md`](project_management_bootstrapping_existing.md) instead. That guide includes codebase discovery, security baseline scans, architecture extraction, and existing governance reconciliation — all of which must happen before the standard bootstrap process below.
 
 ## Prerequisites
 
