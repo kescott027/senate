@@ -56,11 +56,15 @@ done < <(find project_management_skeleton -type f 2>/dev/null | sort)
 ALL_FILES=("${INDIVIDUAL_FILES[@]}" "${DYNAMIC_FILES[@]}")
 
 # Compute hashes
+# Use git's normalized content (LF line endings) to ensure consistent hashes
+# across platforms regardless of core.autocrlf or working copy line endings.
 HASH_PAIRS=""
 MISSING=0
 for f in "${ALL_FILES[@]}"; do
   if [[ -f "$f" ]]; then
-    hash=$(sha256sum "$f" | awk '{print $1}')
+    # Pipe through tr to strip CR, ensuring LF-only content regardless of platform.
+    # This matches what GitHub raw URLs serve and what CI computes.
+    hash=$(tr -d '\r' < "$f" | sha256sum | awk '{print $1}')
     HASH_PAIRS="${HASH_PAIRS}${f}=${hash}\n"
     if $VERBOSE; then
       echo "  $hash  $f"
@@ -158,6 +162,6 @@ print(f'  initiator.md hash: {files.get(\"bootstrap/initiator.md\", \"ERROR\")}'
 "
 
   # Print integrity.json's own hash for the gist
-  INTEGRITY_HASH=$(sha256sum bootstrap/integrity.json | awk '{print $1}')
+  INTEGRITY_HASH=$(tr -d '\r' < bootstrap/integrity.json | sha256sum | awk '{print $1}')
   echo "  integrity.json hash: $INTEGRITY_HASH"
 fi
