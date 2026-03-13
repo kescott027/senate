@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-03-13T11:48:30Z",
-  "commit_sha": "c152095648c9f723fb9113ccbbb873e8719cf336",
+  "generated_at": "2026-03-13T11:50:28Z",
+  "commit_sha": "f13f013e938d810f60372ff200dc8f8e6044d758",
   "algorithm": "sha256",
   "files": {
     "bootstrap/initiator.md": "8dd64f01048eafe70bae22dd6b94bcf7e4d82af16feff61ade337c4854a21035",
