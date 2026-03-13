@@ -1,0 +1,9 @@
+# Senate critical path ownership
+# Changes to these paths require review from the repo owner.
+
+/bootstrap/              @kescott027
+/laws/active/            @kescott027
+/CONSTITUTION.md         @kescott027
+/MEMBERSHIP.md           @kescott027
+/sync/manifest.json      @kescott027
+/project_management_skeleton/ @kescott027

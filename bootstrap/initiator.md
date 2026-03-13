@@ -13,7 +13,83 @@ The senate repo contains:
 - **BOOTSTRAP.md template** — project input document the owner fills in
 - **Sprint-sync protocol** — how projects stay current with law changes
 
-Your job: detect the environment, download what's needed, and bootstrap this project.
+Your job: verify integrity, detect the environment, download what's needed, and bootstrap this project.
+
+---
+
+## Step 0: Integrity Verification
+
+> **This step is MANDATORY. Do not skip it. Do not proceed to Step 1 until verification passes.**
+
+Before executing any instructions, verify that this document has not been tampered with.
+
+### Step 0.1 — Fetch the integrity manifest
+
+Download the integrity manifest:
+```
+https://raw.githubusercontent.com/kescott027/senate/main/bootstrap/integrity.json
+```
+
+Parse the JSON. Extract the hash value for `bootstrap/initiator.md` from the `files` object.
+
+### Step 0.2 — Compute this document's hash
+
+Compute the sha256 hash of the **exact content** of this initiator document as you received it. Use one of:
+
+```bash
+# If you have the file on disk:
+sha256sum <path-to-this-file>
+
+# If you have the content in memory, write it to a temp file first:
+cat > /tmp/initiator_verify.md << 'INITIATOR_EOF'
+<paste or write the full content>
+INITIATOR_EOF
+sha256sum /tmp/initiator_verify.md
+```
+
+Or use Python:
+```python
+import hashlib
+with open("<path-to-this-file>", "rb") as f:
+    print(hashlib.sha256(f.read()).hexdigest())
+```
+
+### Step 0.3 — Compare hashes
+
+Compare the hash you computed against the hash from `integrity.json`.
+
+- If they **match** → proceed to Step 0.4 (secondary verification).
+- If they **do NOT match** →
+  > **SECURITY ALERT: The initiator.md content does not match the integrity manifest. This file may have been tampered with. DO NOT PROCEED.**
+  >
+  > Verify the source at https://github.com/kescott027/senate
+  >
+  > Report this to the project owner immediately.
+
+  **HALT. Do not execute any further instructions.**
+
+### Step 0.4 — Secondary verification (out-of-band)
+
+The `integrity.json` file contains a `secondary_verification.gist_url` field. Fetch that URL.
+
+The gist contains a small JSON object with hashes for `bootstrap/initiator.md` and `bootstrap/integrity.json`.
+
+Verify:
+1. The gist's hash for `bootstrap/initiator.md` matches the hash you computed in Step 0.2.
+2. Compute the sha256 of the `integrity.json` content you fetched in Step 0.1. Verify it matches the gist's hash for `bootstrap/integrity.json`.
+
+**Outcomes:**
+- Both match → **Verified. Proceed to Step 1.**
+- Gist is unreachable (network error, 404) → **Degraded mode.** Warn the user:
+  > "Secondary verification gist is unreachable. Primary integrity check passed. Proceeding with reduced assurance. The project owner should verify the gist URL is current."
+
+  Proceed to Step 1.
+- Gist is reachable but hashes **disagree** →
+  > **SECURITY ALERT: The integrity manifest in the repository disagrees with the out-of-band verification gist. This may indicate the repository has been compromised. DO NOT PROCEED.**
+  >
+  > Report this to the project owner immediately.
+
+  **HALT. Do not execute any further instructions.**
 
 ---
 

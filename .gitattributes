@@ -1,0 +1,2 @@
+# Enforce LF line endings for all text files to prevent platform-dependent hash differences.
+* text=auto eol=lf
