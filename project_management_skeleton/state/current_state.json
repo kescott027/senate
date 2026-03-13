@@ -1,0 +1,9 @@
+{
+  "phase": 0,
+  "active_sprint": null,
+  "active_story_ids": [],
+  "blocked_story_ids": [],
+  "pending_hitl_gate": null,
+  "notes": "Project management scaffold initialized. Awaiting bootstrap.",
+  "last_updated": null
+}
