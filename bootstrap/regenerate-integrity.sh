@@ -142,7 +142,7 @@ manifest = {
     'algorithm': 'sha256',
     'files': files,
     'secondary_verification': {
-        'gist_url': 'https://gist.githubusercontent.com/kescott027/raw/integrity-hashes.json',
+        'gist_url': 'https://gist.githubusercontent.com/kescott027/ade8c10d5e75aaba5d185506d890b096/raw/integrity-hashes.json',
         'description': 'Out-of-band hash mirror. If this gist disagrees with integrity.json, the repo may be compromised.'
     }
 }
