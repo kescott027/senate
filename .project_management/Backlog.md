@@ -35,39 +35,6 @@ No P0 items pending.
 
 ## P1 (Important)
 
-- **ID:** STORY-0105
-- **Title:** Consolidate law mapping table
-- **Description:** Maintain a single authoritative mapping of LAW files to local rules filenames.
-- **Acceptance Criteria:**
-  - Mapping table appears in a single place and is referenced elsewhere.
-  - Table includes all 13 laws and filenames.
-- **Dependencies:** STORY-0006
-- **Risk:** Low
-- **Architectural Impact:** Low
-- **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
-
-- **ID:** STORY-0106
-- **Title:** Add validation for law hash changes
-- **Description:** Add a check to ensure `sync/manifest.json` hashes change when law content changes.
-- **Acceptance Criteria:**
-  - A CI or script detects mismatches between laws and manifest.
-  - Document the update process.
-- **Dependencies:** STORY-0003, STORY-0006
-- **Risk:** Medium
-- **Architectural Impact:** Low
-- **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
-
-- **ID:** STORY-0107
-- **Title:** Define versioning strategy for laws
-- **Description:** Document how law versions are tracked and updated across changes.
-- **Acceptance Criteria:**
-  - A section in `laws/README.md` (or equivalent) describes versioning.
-  - Version changes are reflected in manifest metadata.
-- **Dependencies:** STORY-0006
-- **Risk:** Low
-- **Architectural Impact:** Low
-- **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
-
 - **ID:** STORY-0108
 - **Title:** Clarify executive override process
 - **Description:** Expand documentation for executive overrides to reduce ambiguity.
@@ -195,6 +162,21 @@ No P0 items pending.
 - **Title:** Provide guidance for no-GitHub environments
 - **Closed in sprint:** Sprint-005
 - **Evidence:** `.project_management/completed_sprints/sprint-005.md`
+
+- **ID:** STORY-0105
+- **Title:** Consolidate law mapping table
+- **Closed in sprint:** Sprint-006
+- **Evidence:** `.project_management/completed_sprints/sprint-006.md`
+
+- **ID:** STORY-0106
+- **Title:** Add validation for law hash changes
+- **Closed in sprint:** Sprint-006
+- **Evidence:** `.project_management/completed_sprints/sprint-006.md`
+
+- **ID:** STORY-0107
+- **Title:** Define versioning strategy for laws
+- **Closed in sprint:** Sprint-006
+- **Evidence:** `.project_management/completed_sprints/sprint-006.md`
 
 - **ID:** STORY-0115
 - **Title:** Constituent onboarding kit (voting-ready)

@@ -2,27 +2,25 @@
 
 ## Sprint Number
 
-Sprint-006
+Sprint-007
 
 ## Sprint Goal
 
-Consolidate law mapping references and add guardrails for manifest/version accuracy to prevent drift.
+Clarify executive override workflow and add onboarding FAQ for common issues.
 
 ## Selected Stories
 
-- STORY-0105 - Consolidate law mapping table
-- STORY-0106 - Add validation for law hash changes
-- STORY-0107 - Define versioning strategy for laws
+- STORY-0108 - Clarify executive override process
+- STORY-0109 - Add onboarding FAQ
 
 ## Rationale
 
-Next P1 items to reduce law/manifest drift and clarify versioning.
+Next P1 items to reduce executive override ambiguity and common bootstrap friction.
 
 ## Risks
 
-- Validation scope creep or false positives.
-- Mapping consolidation may require multiple doc updates.
-- Versioning guidance must align with manifest expectations.
+- Executive override examples may need alignment with existing templates.
+- FAQ scope could expand; keep concise.
 
 ## Blockers
 
@@ -30,7 +28,7 @@ None.
 
 ## Acceptance Summary
 
-Law mapping table consolidated; manifest hash validation defined; law versioning strategy documented.
+Executive override workflow clarified with examples; onboarding FAQ added and linked.
 
 ## Definition of Done Checklist
 

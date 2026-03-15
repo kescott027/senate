@@ -62,3 +62,11 @@ Append-only sprint ledger. Add one section per sprint and never reset this file.
 - Start date: 2026-03-15
 - Goal: Consolidate law mapping references and add guardrails for manifest/version accuracy to prevent drift.
 - Included stories: STORY-0105, STORY-0106, STORY-0107
+- End date: 2026-03-15
+- Outcome: Sprint-006 closed; law mapping consolidated and manifest hash validation enforced.
+- Rating: 0.8 (see ratings log).
+
+## Sprint-007
+- Start date: 2026-03-15
+- Goal: Clarify executive override workflow and add onboarding FAQ for common issues.
+- Included stories: STORY-0108, STORY-0109
