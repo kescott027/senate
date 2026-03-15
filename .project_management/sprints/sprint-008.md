@@ -1,8 +1,8 @@
-# Sprint 007 — Executive Overrides + Onboarding FAQ
+# Sprint 008 — Bootstrap Helper CLI
 
 ## Sprint Number
 
-Sprint-007
+Sprint-008
 
 ## Start Date
 
@@ -14,12 +14,11 @@ TBD
 
 ## Goal
 
-Clarify executive override workflow and provide a concise onboarding FAQ to reduce constituent confusion.
+Define and prototype a bootstrap helper CLI that automates optional setup steps without replacing the AI bootstrap path.
 
 ## Included Stories
 
-- STORY-0108 - Clarify executive override process
-- STORY-0109 - Add onboarding FAQ
+- STORY-0201 - Bootstrap helper CLI
 
 ## Files Touched
 
@@ -49,7 +48,7 @@ Clarify executive override workflow and provide a concise onboarding FAQ to redu
 
 - Current phase: Phase 2 (Production readiness)
 - Phase goals status (on-track / at-risk / blocked): On-track
-- Critical path status: Reduce ambiguity in overrides and bootstrap troubleshooting.
+- Critical path status: Optional automation to speed bootstrap without diluting governance process.
 - Phase gate checklist status (if phase-ending): N/A
 - Phase-end report link (if phase-ending): N/A
 

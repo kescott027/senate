@@ -2,25 +2,24 @@
 
 ## Sprint Number
 
-Sprint-007
+Sprint-008
 
 ## Sprint Goal
 
-Clarify executive override workflow and add onboarding FAQ for common issues.
+Define and prototype a bootstrap helper CLI for optional automation.
 
 ## Selected Stories
 
-- STORY-0108 - Clarify executive override process
-- STORY-0109 - Add onboarding FAQ
+- STORY-0201 - Bootstrap helper CLI
 
 ## Rationale
 
-Next P1 items to reduce executive override ambiguity and common bootstrap friction.
+Begin the top P2 automation item to reduce manual bootstrap steps.
 
 ## Risks
 
-- Executive override examples may need alignment with existing templates.
-- FAQ scope could expand; keep concise.
+- CLI scope creep beyond optional helper.
+- Risk of undermining the single-line AI instruction if positioned poorly.
 
 ## Blockers
 
@@ -28,7 +27,7 @@ None.
 
 ## Acceptance Summary
 
-Executive override workflow clarified with examples; onboarding FAQ added and linked.
+Bootstrap helper CLI scoped, documented, and validated without replacing the AI bootstrap path.
 
 ## Definition of Done Checklist
 

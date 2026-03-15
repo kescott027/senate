@@ -1,12 +1,11 @@
 {
   "phase": 2,
-  "active_sprint": "Sprint-007",
+  "active_sprint": "Sprint-008",
   "active_story_ids": [
-    "STORY-0108",
-    "STORY-0109"
+    "STORY-0201"
   ],
   "blocked_story_ids": [],
   "pending_hitl_gate": null,
-  "notes": "Sprint-007 planned for executive override clarification and onboarding FAQ.",
-  "last_updated": "2026-03-15T23:18:39Z"
+  "notes": "Sprint-008 planned for bootstrap helper CLI (optional automation).",
+  "last_updated": "2026-03-15T23:35:26Z"
 }

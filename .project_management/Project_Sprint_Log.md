@@ -70,3 +70,11 @@ Append-only sprint ledger. Add one section per sprint and never reset this file.
 - Start date: 2026-03-15
 - Goal: Clarify executive override workflow and add onboarding FAQ for common issues.
 - Included stories: STORY-0108, STORY-0109
+- End date: 2026-03-15
+- Outcome: Sprint-007 closed; executive override guidance and onboarding FAQ delivered.
+- Rating: 0.8 (see ratings log).
+
+## Sprint-008
+- Start date: 2026-03-15
+- Goal: Define and prototype a bootstrap helper CLI for optional automation.
+- Included stories: STORY-0201

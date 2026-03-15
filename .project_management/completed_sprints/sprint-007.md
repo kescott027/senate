@@ -1,0 +1,95 @@
+# Sprint 007 — Executive Overrides + Onboarding FAQ
+
+## Sprint Number
+
+Sprint-007
+
+## Start Date
+
+2026-03-15
+
+## End Date
+
+2026-03-15
+
+## Goal
+
+Clarify executive override workflow and provide a concise onboarding FAQ to reduce constituent confusion.
+
+## Included Stories
+
+- STORY-0108 - Clarify executive override process
+- STORY-0109 - Add onboarding FAQ
+
+## Story Status
+
+- STORY-0108: Done.
+- STORY-0109: Done.
+
+## Files Touched
+
+- executive/README.md
+- executive/overrides/EXEC-000_template.md
+- docs/governance/onboarding_faq.md
+- README.md
+
+## Notes (Architecture/Security)
+
+- Architecture notes: Documentation-only; no runtime changes.
+- Security notes: No secrets introduced.
+- Decision matrix references: .project_management/Decision_Matrix.md
+
+## Test Results
+
+- Unit tests: N/A (docs)
+- Integration tests: N/A
+- Load/performance tests: N/A
+- Security checks: CodeQL (pass), actionlint (pass), shellcheck (pass), Analyze (actions) (pass)
+
+## Review Summary
+
+- What was completed: STORY-0108, STORY-0109
+- What was deferred: None
+- Risks discovered: None
+- Debt introduced/resolved: No new debt introduced.
+
+## Phase/MVP Progress
+
+- Current phase: Phase 2 (Production readiness)
+- Phase goals status (on-track / at-risk / blocked): On-track
+- Critical path status: Reduce ambiguity in overrides and bootstrap troubleshooting.
+- Phase gate checklist status (if phase-ending): N/A
+- Phase-end report link (if phase-ending): N/A
+
+## Sprint Review Rating
+
+- Rating (0.0–1.0, one decimal): 0.8
+- Rationale (tie to senate laws + sprint goal): Clarified executive override workflow and provided onboarding FAQ (LAW-012/LAW-004 alignment) with green CI.
+- Running average (from `.project_management/ratings/sprint_ratings.jsonl`): 0.8
+
+## Close-out Checklist
+
+- [x] All done stories have evidence.
+- [x] Deferred stories returned to backlog with updated priority.
+- [x] Phase/MVP progress status documented.
+- [x] Sprint log appended in `Project_Sprint_Log.md`.
+- [x] Sprint rating appended in `.project_management/ratings/sprint_ratings.jsonl`.
+- [x] `Current_Sprint.md` reset.
+- [x] Sprint file moved to `completed_sprints/`.
+- [x] Audit log entry appended.
+- [x] All PRs green; no merges before checks complete.
+- [x] Stale branches pruned; main is clean.
+
+## Retro Notes
+
+- What went well: Documentation updates landed cleanly with no blockers.
+- What did not go well: None.
+- Process changes for next sprint: Keep FAQ concise and link from README immediately.
+
+## Closure Signature
+
+Closed by: tecthulhu.senate.ai-worker-01.ai
+
+Date: 2026-03-15
+
+Reference: PR #21

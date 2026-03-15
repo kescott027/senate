@@ -35,28 +35,6 @@ No P0 items pending.
 
 ## P1 (Important)
 
-- **ID:** STORY-0108
-- **Title:** Clarify executive override process
-- **Description:** Expand documentation for executive overrides to reduce ambiguity.
-- **Acceptance Criteria:**
-  - `executive/README.md` clearly describes override workflow.
-  - Example override records are included or templated.
-- **Dependencies:** None
-- **Risk:** Low
-- **Architectural Impact:** Low
-- **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
-
-- **ID:** STORY-0109
-- **Title:** Add onboarding FAQ
-- **Description:** Provide a concise FAQ addressing common bootstrap issues.
-- **Acceptance Criteria:**
-  - FAQ covers integrity failures, missing tokens, and `.project_management/` errors.
-  - Linked from README.
-- **Dependencies:** STORY-0012
-- **Risk:** Low
-- **Architectural Impact:** Low
-- **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
-
 ## P2 (Nice to have)
 
 - **ID:** STORY-0201
@@ -177,6 +155,16 @@ No P0 items pending.
 - **Title:** Define versioning strategy for laws
 - **Closed in sprint:** Sprint-006
 - **Evidence:** `.project_management/completed_sprints/sprint-006.md`
+
+- **ID:** STORY-0108
+- **Title:** Clarify executive override process
+- **Closed in sprint:** Sprint-007
+- **Evidence:** `.project_management/completed_sprints/sprint-007.md`
+
+- **ID:** STORY-0109
+- **Title:** Add onboarding FAQ
+- **Closed in sprint:** Sprint-007
+- **Evidence:** `.project_management/completed_sprints/sprint-007.md`
 
 - **ID:** STORY-0115
 - **Title:** Constituent onboarding kit (voting-ready)

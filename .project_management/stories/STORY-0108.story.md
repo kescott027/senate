@@ -10,8 +10,8 @@ Expand documentation for executive overrides to reduce ambiguity.
 Constituents and maintainers benefit from clarify executive override process.
 
 ## Acceptance criteria
-- [ ] `executive/README.md` clearly describes override workflow.
-- [ ] Example override records are included or templated.
+- [x] `executive/README.md` clearly describes override workflow.
+- [x] Example override records are included or templated.
 
 ## Non-functional requirements
 - Security: No secret leakage; follow LAW-004 for token handling.
@@ -19,7 +19,7 @@ Constituents and maintainers benefit from clarify executive override process.
 - Performance: N/A (documentation/process).
 
 ## Implementation notes
-See BOOTSTRAP_SENATE.md for detailed context and acceptance criteria.
+Expanded override workflow documentation and added a template override record.
 
 ## Test plan
 - Unit: N/A (docs/process)
@@ -38,8 +38,13 @@ Revert the changes to restore prior governance documentation.
 - Low
 
 ## Definition of Done checklist
-- [ ] AC met
-- [ ] Tests added + passing
-- [ ] Lint/format/type checks pass
-- [ ] Security checks pass
-- [ ] Docs updated
+- [x] AC met
+- [x] Tests added + passing (N/A — docs)
+- [x] Lint/format/type checks pass (N/A — docs)
+- [x] Security checks pass (N/A — docs)
+- [x] Docs updated
+
+## Evidence
+- `executive/README.md`
+- `executive/overrides/EXEC-000_template.md`
+- PR: https://github.com/tecthulhu/senate/pull/21

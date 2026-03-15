@@ -10,8 +10,8 @@ Provide a concise FAQ addressing common bootstrap issues.
 Constituents and maintainers benefit from add onboarding faq.
 
 ## Acceptance criteria
-- [ ] FAQ covers integrity failures, missing tokens, and `.project_management/` errors.
-- [ ] Linked from README.
+- [x] FAQ covers integrity failures, missing tokens, and `.project_management/` errors.
+- [x] Linked from README.
 
 ## Non-functional requirements
 - Security: No secret leakage; follow LAW-004 for token handling.
@@ -19,7 +19,7 @@ Constituents and maintainers benefit from add onboarding faq.
 - Performance: N/A (documentation/process).
 
 ## Implementation notes
-See BOOTSTRAP_SENATE.md for detailed context and acceptance criteria.
+Added onboarding FAQ and linked it from README quick links.
 
 ## Test plan
 - Unit: N/A (docs/process)
@@ -38,8 +38,13 @@ Revert the changes to restore prior governance documentation.
 - Low
 
 ## Definition of Done checklist
-- [ ] AC met
-- [ ] Tests added + passing
-- [ ] Lint/format/type checks pass
-- [ ] Security checks pass
-- [ ] Docs updated
+- [x] AC met
+- [x] Tests added + passing (N/A — docs)
+- [x] Lint/format/type checks pass (N/A — docs)
+- [x] Security checks pass (N/A — docs)
+- [x] Docs updated
+
+## Evidence
+- `docs/governance/onboarding_faq.md`
+- `README.md` (Quick Links)
+- PR: https://github.com/tecthulhu/senate/pull/21
