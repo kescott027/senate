@@ -1,0 +1,7 @@
+# Decision Matrix
+
+| Date | Topic | Options | Recommended | Decision | Rationale | Impact | Status |
+| ---- | ----- | ------- | ----------- | -------- | --------- | ------ | ------ |
+| 2026-03-14 | Enable GitHub Code Scanning (CodeQL) | Enable now; defer; decline (ADR required) | Enable now | Approved; workflow added | LAW-004 requires security scanning | Security posture change | Closed |
+| 2026-03-14 | CodeQL language selection | JavaScript; Actions | Actions | Approved; workflow updated | Repo lacks JS/TS source; Actions workflows are the relevant target | Security tooling config | Closed |
+| 2026-03-15 | Secondary verification gist access | Provide gist-owner token; transfer/create new gist; disable secondary verification | Provide gist-owner token | Approved; gist updated | Required to update out-of-band hash mirror for STORY-0004 | Integrity verification | Closed |

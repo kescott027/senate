@@ -304,6 +304,7 @@ Collect all existing governance-like artifacts:
 - Existing issue templates → check for overlap with senate bill templates
 - CI enforcement rules → map to LAW-003 (engineering standards)
 - Existing code review processes → map to LAW-008 (review cadence)
+- If local laws are needed, seed `local-laws/README.md` from `templates/local-laws-readme.md`.
 
 ### Step 4.2 — Conflict analysis
 
