@@ -1,0 +1,14 @@
+# AI command logging configuration
+# Default log directory
+LOG_DIR=~/tecthulhu/ai_logs
+
+# Optional: pin a session start time (UTC, format YYYYMMDDTHHMMSSZ)
+# SESSION_START=20260314T000000Z
+
+# Log stdin only when piped (0 = disabled, 1 = enabled)
+LOG_STDIN=0
+
+# Optional: redact patterns from stdin logs (one per line)
+# Example patterns (regex):
+# REDACT_REGEX=github_pat_[A-Za-z0-9_]+
+# REDACT_REGEX=token=\S+

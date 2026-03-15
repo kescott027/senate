@@ -133,6 +133,7 @@ The Architecture section provides the "how". Use it to:
 
 If `BOOTSTRAP.md` contains project-specific rules that go beyond senate laws:
 - Create a `local-laws/` directory in the project root.
+- Seed `local-laws/README.md` using `templates/local-laws-readme.md`.
 - Write each local rule as a markdown file.
 - These do not require senate approval but must not contradict senate laws.
 

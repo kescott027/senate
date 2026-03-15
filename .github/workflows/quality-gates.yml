@@ -1,0 +1,46 @@
+name: Quality Gates
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/**'
+      - '**/*.sh'
+      - 'docs/**'
+      - 'README.md'
+      - 'BOOTSTRAP.md'
+      - 'project_management_bootstrapping*.md'
+      - 'project_management_skeleton/**'
+      - '.project_management/**'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/**'
+      - '**/*.sh'
+      - 'docs/**'
+      - 'README.md'
+      - 'BOOTSTRAP.md'
+      - 'project_management_bootstrapping*.md'
+      - 'project_management_skeleton/**'
+      - '.project_management/**'
+
+permissions:
+  contents: read
+
+jobs:
+  actionlint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Lint GitHub Actions
+        uses: rhysd/actionlint@v1.7.11
+
+  shellcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install ShellCheck
+        run: sudo apt-get update && sudo apt-get install -y shellcheck
+      - name: Lint shell scripts
+        run: shellcheck ai_cmd.sh bootstrap/regenerate-integrity.sh

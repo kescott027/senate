@@ -11,3 +11,5 @@
 ## Membership Rules
 
 New members are added by executive action or by majority vote on a BILL_NEW_LAW proposing membership expansion.
+
+See `docs/governance/membership_onboarding.md` for the request process, entry template, and law sync guidance.
