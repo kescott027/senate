@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-03-15T17:41:31Z",
-  "commit_sha": "807a409f6f2cef090ccfd84039377d032d80bfe1",
+  "generated_at": "2026-03-15T18:14:55Z",
+  "commit_sha": "8a40c192ab2f1458acefc50a28e2d82c1291ac50",
   "algorithm": "sha256",
   "files": {
     "bootstrap/initiator.md": "0eede89cc6e49e444db062370f926e10e13ef44c6165604f054988df479b2309",
@@ -28,7 +28,7 @@
     "project_management_skeleton/Current_Sprint.md": "8808c976ba96f7247d604112f2dd2cb6ec739fcf6ed5074f41ebb166afd631a5",
     "project_management_skeleton/Decision_Matrix.md": "0dd9557a8200782133066c22feeeeb667cf66833a56608577f965f3579d5f16c",
     "project_management_skeleton/Project_Sprint_Log.md": "f09f8d279e6d5ed8282c71d5322f3646e2d1899a40ef21f79dbbd4faf95cd7ba",
-    "project_management_skeleton/Rules.md": "9f50e6ea06651c90390d4628aa4457ef0dcecc478daae13276c3294e8d94d531",
+    "project_management_skeleton/Rules.md": "c5962cdb8262d97c4b6588b5aa25bfc8e783128e80c86ab436ef48ead4286670",
     "project_management_skeleton/Sprint_TEMPLATE.md": "12cb66995479043db39169cc8af510bc252b209378cc404983a8c1ad49673b8a",
     "project_management_skeleton/adr/ADR-000-template.md": "759ae89d44b7010b18b0ebdffcb774fe2115c122ea580581fc315cdb5da6c477",
     "project_management_skeleton/blockers/BLOCKER_TEMPLATE.md": "5e89de271aa59a4e7b41811b76ba8cbe59a926d1b8418853dac392e37496264f",

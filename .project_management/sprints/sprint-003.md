@@ -23,6 +23,7 @@ Define the core proposal intake and voting workflow, including decision recordin
 - STORY-0112 - Publish vote tally procedure and archival format
 - STORY-0113 - Update contributor guidance for proposing and voting
 - STORY-0114 - Executive override integration
+- STORY-0218 - PR-only main rule governance update
 
 ## Story Status
 
@@ -31,6 +32,7 @@ Define the core proposal intake and voting workflow, including decision recordin
 - STORY-0112: In progress.
 - STORY-0113: In progress.
 - STORY-0114: In progress.
+- STORY-0218: Done.
 
 ## Files Touched
 

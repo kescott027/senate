@@ -47,4 +47,4 @@ Revert the changes to restore prior governance documentation.
 
 ## Evidence
 - Updated gist: https://gist.github.com/kescott027/ade8c10d5e75aaba5d185506d890b096
-- `bootstrap/integrity.json` regenerated (hash: a505250cd76cc009159ebfe995e5fba14de832e2c94a143683d105033cfd5b95)
+- `bootstrap/integrity.json` regenerated (hash: ff2c46d9e436d87b626be8870b5a3562c77ae771dd888cb2ea95865a3b1a8c4e)

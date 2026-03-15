@@ -6,10 +6,11 @@
     "STORY-0111",
     "STORY-0112",
     "STORY-0113",
-    "STORY-0114"
+    "STORY-0114",
+    "STORY-0218"
   ],
   "blocked_story_ids": [],
   "pending_hitl_gate": null,
   "notes": "Sprint-003 active; Phase 2 law proposal and voting system definition in progress.",
-  "last_updated": "2026-03-15T17:55:12Z"
+  "last_updated": "2026-03-15T18:10:18Z"
 }

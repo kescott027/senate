@@ -21,6 +21,7 @@ Canonical execution contract: `AI_ENTRYPOINT.md`.
 - Architecture-impacting changes require a `Decision_Matrix.md` entry before implementation.
 - Production/pre-prod readiness claims must include benchmark or test evidence.
 - All PRs must be green before merge; no merges before all required checks complete.
+- Only the initial repository bootstrap commit may push directly to `main`. All subsequent changes must go through PRs with green CI.
 - After merges, stale branches must be pruned and main must be clean.
 
 ## Sprint Lifecycle Rules

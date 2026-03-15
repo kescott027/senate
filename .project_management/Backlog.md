@@ -5,8 +5,8 @@ This file is the authoritative backlog for all planned work. Stories are listed 
 ## Backlog Index
 
 - Last updated: 2026-03-15
-- Total story count: 27
-- Highest story ID present: STORY-0213
+- Total story count: 29
+- Highest story ID present: STORY-0218
 
 ## Story Template (Must Be Used)
 
@@ -31,7 +31,17 @@ A story is "Done" ONLY when:
 
 ## P0 (Critical)
 
-No P0 items pending.
+- **ID:** STORY-0218
+- **Title:** Enforce PR-only main rule via governance bill
+- **Description:** Codify the PR-only main rule in project management rules and propose a LAW-003 amendment to formalize it.
+- **Acceptance Criteria:**
+  - `.project_management/Rules.md` and `project_management_skeleton/Rules.md` include the PR-only main rule.
+  - Draft bill added under `docs/governance/bills/` and submitted per LAW-012.
+  - Sprint scope/state updated with audit log entry.
+- **Dependencies:** None
+- **Risk:** Medium
+- **Architectural Impact:** Low
+- **Notes/Evidence:** Required governance compliance update.
 
 ## P1 (Important)
 
