@@ -26,6 +26,10 @@ Phase 2 critical path requires a documented law proposal and voting system befor
 - Governance workflow may need law amendments.
 - Voting artifacts storage location may require new directories or templates.
 
+## Blockers
+
+- BLOCKER_2026-03-15_Sprint-003_STORY-0218_GitHubPushPermission.md
+
 ## Acceptance Summary
 
 Core proposal intake, voting lifecycle, tallying, contributor guidance, and executive override integration documented.

@@ -9,8 +9,10 @@
     "STORY-0114",
     "STORY-0218"
   ],
-  "blocked_story_ids": [],
-  "pending_hitl_gate": null,
-  "notes": "Sprint-003 active; Phase 2 law proposal and voting system definition in progress.",
-  "last_updated": "2026-03-15T18:10:18Z"
+  "blocked_story_ids": [
+    "STORY-0218"
+  ],
+  "pending_hitl_gate": "Awaiting GitHub token or org permission to push PR branch for STORY-0218.",
+  "notes": "Sprint-003 active; STORY-0218 blocked on GitHub write access to open PR; Phase 2 law proposal and voting system definition in progress.",
+  "last_updated": "2026-03-15T18:19:58Z"
 }
