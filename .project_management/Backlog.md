@@ -35,78 +35,6 @@ No P0 items pending.
 
 ## P1 (Important)
 
-- **ID:** STORY-0115
-- **Title:** Constituent onboarding kit (voting-ready)
-- **Description:** Provide a minimal, fast-path onboarding kit so a new constituent can vote quickly.
-- **Acceptance Criteria:**
-  - Kit includes: onboarding steps, sync checklist, vote format example, and “first vote” walkthrough.
-  - Kit is linked from README and/or `MEMBERSHIP.md`.
-  - Kit explicitly states prerequisites for voting.
-- **Dependencies:** STORY-0113
-- **Risk:** Medium
-- **Architectural Impact:** Low
-- **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
-
-- **ID:** STORY-0116
-- **Title:** Voting readiness checklist
-- **Description:** Define the minimal conditions a constituent must meet before voting.
-- **Acceptance Criteria:**
-  - Checklist includes membership entry, law sync status, and `.senate-sync.json` presence.
-  - Checklist is used during sprint sync and onboarding.
-  - Checklist has a single “ready/not ready” outcome.
-- **Dependencies:** STORY-0110, STORY-0007
-- **Risk:** Low
-- **Architectural Impact:** Low
-- **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
-
-- **ID:** STORY-0117
-- **Title:** First vote walkthrough
-- **Description:** Provide a step-by-step example of submitting a valid vote comment.
-- **Acceptance Criteria:**
-  - Walkthrough references the correct vote format from LAW-012.
-  - Includes a worked example and how to verify it was counted.
-  - Clearly explains vote timing and labels.
-- **Dependencies:** STORY-0113
-- **Risk:** Low
-- **Architectural Impact:** Low
-- **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
-
-- **ID:** STORY-0118
-- **Title:** Constituent identity canonicalization
-- **Description:** Define the canonical project identifier to use in votes to avoid mismatched naming.
-- **Acceptance Criteria:**
-  - Canonical format is documented (e.g., `org/repo`).
-  - `MEMBERSHIP.md` entries align with the canonical format.
-  - Voting instructions reference the canonical format.
-- **Dependencies:** STORY-0013
-- **Risk:** Medium
-- **Architectural Impact:** Low
-- **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
-
-- **ID:** STORY-0119
-- **Title:** Voting notification path
-- **Description:** Document how constituents learn that a vote is open and when it closes.
-- **Acceptance Criteria:**
-  - Notification mechanism documented (labels, GitHub watch settings, mention policy).
-  - Timeline expectations are explicit.
-  - Linked from onboarding kit and voting guide.
-- **Dependencies:** STORY-0110
-- **Risk:** Low
-- **Architectural Impact:** Low
-- **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
-
-- **ID:** STORY-0124
-- **Title:** Voting eligibility gate in sync protocol
-- **Description:** Add a voting readiness gate to the sprint sync protocol.
-- **Acceptance Criteria:**
-  - `sync/README.md` and `templates/sprint-sync-checklist.md` include the gate.
-  - Gate uses the voting readiness checklist.
-  - Procedure defines how to remediate missing requirements.
-- **Dependencies:** STORY-0116
-- **Risk:** Low
-- **Architectural Impact:** Low
-- **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
-
 - **ID:** STORY-0101
 - **Title:** Provide automated bootstrap verification script
 - **Description:** Add a script to validate that a freshly bootstrapped repo contains all required artifacts.
@@ -293,6 +221,36 @@ No P0 items pending.
 - **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
 
 ## Archive (Completed)
+
+- **ID:** STORY-0115
+- **Title:** Constituent onboarding kit (voting-ready)
+- **Closed in sprint:** Sprint-004
+- **Evidence:** `.project_management/completed_sprints/sprint-004.md`
+
+- **ID:** STORY-0116
+- **Title:** Voting readiness checklist
+- **Closed in sprint:** Sprint-004
+- **Evidence:** `.project_management/completed_sprints/sprint-004.md`
+
+- **ID:** STORY-0117
+- **Title:** First vote walkthrough
+- **Closed in sprint:** Sprint-004
+- **Evidence:** `.project_management/completed_sprints/sprint-004.md`
+
+- **ID:** STORY-0118
+- **Title:** Constituent identity canonicalization
+- **Closed in sprint:** Sprint-004
+- **Evidence:** `.project_management/completed_sprints/sprint-004.md`
+
+- **ID:** STORY-0119
+- **Title:** Voting notification path
+- **Closed in sprint:** Sprint-004
+- **Evidence:** `.project_management/completed_sprints/sprint-004.md`
+
+- **ID:** STORY-0124
+- **Title:** Voting eligibility gate in sync protocol
+- **Closed in sprint:** Sprint-004
+- **Evidence:** `.project_management/completed_sprints/sprint-004.md`
 
 - **ID:** STORY-0218
 - **Title:** Enforce PR-only main rule via governance bill
