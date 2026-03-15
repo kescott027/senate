@@ -31,17 +31,7 @@ A story is "Done" ONLY when:
 
 ## P0 (Critical)
 
-- **ID:** STORY-0218
-- **Title:** Enforce PR-only main rule via governance bill
-- **Description:** Codify the PR-only main rule in project management rules and propose a LAW-003 amendment to formalize it.
-- **Acceptance Criteria:**
-  - `.project_management/Rules.md` and `project_management_skeleton/Rules.md` include the PR-only main rule.
-  - Draft bill added under `docs/governance/bills/` and submitted per LAW-012.
-  - Sprint scope/state updated with audit log entry.
-- **Dependencies:** None
-- **Risk:** Medium
-- **Architectural Impact:** Low
-- **Notes/Evidence:** Required governance compliance update.
+No P0 items pending.
 
 ## P1 (Important)
 
@@ -147,67 +137,6 @@ A story is "Done" ONLY when:
 - **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
 
 
-- **ID:** STORY-0110
-- **Title:** Define bill intake and triage workflow
-- **Description:** Document a step-by-step process for how proposals are submitted, triaged, scheduled for review, and moved into voting.
-- **Acceptance Criteria:**
-  - A dedicated section (new doc or README section) defines proposal states and required labels.
-  - Entry criteria for review and voting are explicit and testable.
-  - Workflow references the bill issue templates and LAW-012.
-  - Triage expectations (who, when, how) are defined.
-- **Dependencies:** STORY-0008
-- **Risk:** Medium
-- **Architectural Impact:** Low
-- **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
-
-- **ID:** STORY-0111
-- **Title:** Standardize voting lifecycle and decision recording
-- **Description:** Define how votes are opened, closed, tallied, and recorded as decisions.
-- **Acceptance Criteria:**
-  - Voting-open and voting-closed criteria are defined and documented.
-  - Decision record format is specified (outcome, tally, quorum, timestamps).
-  - Decision records are stored in a documented location (e.g., `votes/`).
-  - Executive override interaction is linked but not duplicated.
-- **Dependencies:** STORY-0110
-- **Risk:** Medium
-- **Architectural Impact:** Low
-- **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
-
-- **ID:** STORY-0112
-- **Title:** Publish vote tally procedure and archival format
-- **Description:** Create a repeatable procedure for tallying votes and storing results for audit.
-- **Acceptance Criteria:**
-  - Tally steps reference LAW-012 thresholds and quorum rules.
-  - A canonical tally template exists in `votes/` or `templates/`.
-  - Guidance covers abstentions and edge cases (late votes, invalid format).
-- **Dependencies:** STORY-0111
-- **Risk:** Low
-- **Architectural Impact:** Low
-- **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
-
-- **ID:** STORY-0113
-- **Title:** Update contributor guidance for proposing and voting
-- **Description:** Provide contributor-facing documentation that explains how to propose a bill and how to vote.
-- **Acceptance Criteria:**
-  - README (or a dedicated guide) links to proposal and voting instructions.
-  - Examples show correct formatting for a vote comment.
-  - Guidance includes timelines and review windows.
-- **Dependencies:** STORY-0110
-- **Risk:** Low
-- **Architectural Impact:** Low
-- **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
-
-- **ID:** STORY-0114
-- **Title:** Executive override integration
-- **Description:** Clarify how executive overrides interact with the normal voting pipeline.
-- **Acceptance Criteria:**
-  - Executive override steps are documented and linked from the voting workflow.
-  - Clear rules define when override supersedes vote outcomes.
-  - Override records are stored consistently with other decision artifacts.
-- **Dependencies:** STORY-0111
-- **Risk:** Medium
-- **Architectural Impact:** Low
-- **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
 
 - **ID:** STORY-0115
 - **Title:** Constituent onboarding kit (voting-ready)
@@ -366,6 +295,36 @@ A story is "Done" ONLY when:
 - **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
 
 ## Archive (Completed)
+
+- **ID:** STORY-0218
+- **Title:** Enforce PR-only main rule via governance bill
+- **Closed in sprint:** Sprint-003
+- **Evidence:** `.project_management/completed_sprints/sprint-003.md`
+
+- **ID:** STORY-0110
+- **Title:** Define bill intake and triage workflow
+- **Closed in sprint:** Sprint-003
+- **Evidence:** `.project_management/completed_sprints/sprint-003.md`
+
+- **ID:** STORY-0111
+- **Title:** Standardize voting lifecycle and decision recording
+- **Closed in sprint:** Sprint-003
+- **Evidence:** `.project_management/completed_sprints/sprint-003.md`
+
+- **ID:** STORY-0112
+- **Title:** Publish vote tally procedure and archival format
+- **Closed in sprint:** Sprint-003
+- **Evidence:** `.project_management/completed_sprints/sprint-003.md`
+
+- **ID:** STORY-0113
+- **Title:** Update contributor guidance for proposing and voting
+- **Closed in sprint:** Sprint-003
+- **Evidence:** `.project_management/completed_sprints/sprint-003.md`
+
+- **ID:** STORY-0114
+- **Title:** Executive override integration
+- **Closed in sprint:** Sprint-003
+- **Evidence:** `.project_management/completed_sprints/sprint-003.md`
 
 - **ID:** STORY-0001
 - **Title:** Publish one-line bootstrap instruction in README

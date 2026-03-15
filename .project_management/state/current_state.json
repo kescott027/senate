@@ -1,16 +1,9 @@
 {
-  "phase": 0,
-  "active_sprint": "Sprint-003",
-  "active_story_ids": [
-    "STORY-0110",
-    "STORY-0111",
-    "STORY-0112",
-    "STORY-0113",
-    "STORY-0114",
-    "STORY-0218"
-  ],
+  "phase": 2,
+  "active_sprint": "Sprint-004",
+  "active_story_ids": [],
   "blocked_story_ids": [],
   "pending_hitl_gate": null,
-  "notes": "Sprint-003 active; STORY-0110..0114 and STORY-0218 complete; Phase 2 law proposal and voting system definition documented; sprint ready for closeout.",
-  "last_updated": "2026-03-15T20:41:44Z"
+  "notes": "Sprint-004 initialized; scope TBD. Sprint-003 closed with Phase 2 proposal/voting workflow documentation complete.",
+  "last_updated": "2026-03-15T20:47:33Z"
 }

@@ -38,3 +38,11 @@ Append-only sprint ledger. Add one section per sprint and never reset this file.
 - Blocker opened: BLOCKER_2026-03-15_Sprint-003_STORY-0218_GitHubPushPermission (push permission required to open PR)
 - Blocker closed: BLOCKER_2026-03-15_Sprint-003_STORY-0218_GitHubPushPermission (PR branch pushed via SSH; PR #9 opened)
 - PR merged: #9 (PR-only main rule governance updates)
+- End date: 2026-03-15
+- Outcome: Sprint-003 closed; proposal intake and voting workflows documented with decision/tally templates and contributor guidance.
+- Rating: 0.8 (see ratings log).
+
+## Sprint-004
+- Start date: 2026-03-15
+- Goal: TBD
+- Included stories: TBD
