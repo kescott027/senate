@@ -10,9 +10,9 @@ Create a repeatable procedure for tallying votes and storing results for audit.
 Constituents and maintainers benefit from publish vote tally procedure and archival format.
 
 ## Acceptance criteria
-- [ ] Tally steps reference LAW-012 thresholds and quorum rules.
-- [ ] A canonical tally template exists in `votes/` or `templates/`.
-- [ ] Guidance covers abstentions and edge cases (late votes, invalid format).
+- [x] Tally steps reference LAW-012 thresholds and quorum rules.
+- [x] A canonical tally template exists in `votes/` or `templates/`.
+- [x] Guidance covers abstentions and edge cases (late votes, invalid format).
 
 ## Non-functional requirements
 - Security: No secret leakage; follow LAW-004 for token handling.
@@ -39,8 +39,14 @@ Revert the changes to restore prior governance documentation.
 - Low
 
 ## Definition of Done checklist
-- [ ] AC met
-- [ ] Tests added + passing
-- [ ] Lint/format/type checks pass
-- [ ] Security checks pass
-- [ ] Docs updated
+- [x] AC met
+- [x] Tests added + passing (N/A — docs)
+- [x] Lint/format/type checks pass (N/A — docs)
+- [x] Security checks pass (N/A — docs)
+- [x] Docs updated
+
+## Evidence
+- `docs/governance/voting_lifecycle.md`
+- `templates/vote_tally.md`
+- `votes/tallies/`
+- `votes/README.md`

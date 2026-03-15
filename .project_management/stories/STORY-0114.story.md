@@ -10,9 +10,9 @@ Clarify how executive overrides interact with the normal voting pipeline.
 Constituents and maintainers benefit from executive override integration.
 
 ## Acceptance criteria
-- [ ] Executive override steps are documented and linked from the voting workflow.
-- [ ] Clear rules define when override supersedes vote outcomes.
-- [ ] Override records are stored consistently with other decision artifacts.
+- [x] Executive override steps are documented and linked from the voting workflow.
+- [x] Clear rules define when override supersedes vote outcomes.
+- [x] Override records are stored consistently with other decision artifacts.
 
 ## Non-functional requirements
 - Security: No secret leakage; follow LAW-004 for token handling.
@@ -39,8 +39,13 @@ Revert the changes to restore prior governance documentation.
 - Medium
 
 ## Definition of Done checklist
-- [ ] AC met
-- [ ] Tests added + passing
-- [ ] Lint/format/type checks pass
-- [ ] Security checks pass
-- [ ] Docs updated
+- [x] AC met
+- [x] Tests added + passing (N/A — docs)
+- [x] Lint/format/type checks pass (N/A — docs)
+- [x] Security checks pass (N/A — docs)
+- [x] Docs updated
+
+## Evidence
+- `docs/governance/voting_lifecycle.md`
+- `executive/README.md`
+- `votes/decisions/`

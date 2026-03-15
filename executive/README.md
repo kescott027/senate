@@ -52,6 +52,12 @@ The body of the override document should contain:
 4. `sync/manifest.json` is updated to reflect the change.
 5. Constituents are notified via the manifest sync process.
 
+## Interaction with Voting Lifecycle
+
+- If an override applies to an active bill, add the `executive-override` label and close the vote if it is open.
+- Record the outcome in `votes/decisions/` using `templates/decision_record.md`.
+- Link the override file in the decision record for auditability.
+
 ## Accountability
 
 While executive overrides do not require approval, they are fully transparent. All overrides are version-controlled, timestamped, and visible to all constituents through the sync process.

@@ -27,11 +27,11 @@ Define the core proposal intake and voting workflow, including decision recordin
 
 ## Story Status
 
-- STORY-0110: In progress.
-- STORY-0111: In progress.
-- STORY-0112: In progress.
-- STORY-0113: In progress.
-- STORY-0114: In progress.
+- STORY-0110: Done.
+- STORY-0111: Done.
+- STORY-0112: Done.
+- STORY-0113: Done.
+- STORY-0114: Done.
 - STORY-0218: Done — PR #9 merged.
 
 ## Blockers
@@ -40,7 +40,16 @@ None.
 
 ## Files Touched
 
-- TBD
+- docs/governance/proposal_intake_workflow.md
+- docs/governance/voting_lifecycle.md
+- docs/governance/contributor_guide.md
+- templates/vote_tally.md
+- templates/decision_record.md
+- votes/README.md
+- votes/decisions/.gitkeep
+- votes/tallies/.gitkeep
+- executive/README.md
+- README.md
 
 ## Notes (Architecture/Security)
 

@@ -35,6 +35,9 @@ The executive (`kescott027`) can also enact, repeal, veto, suspend, or amend any
 - [Membership](MEMBERSHIP.md) -- Active constituent projects
 - [Sync Protocol](sync/README.md) -- How constituent projects stay in sync with senate laws
 - [Executive Overrides](executive/README.md) -- How executive override power works
+- [Proposal Intake Workflow](docs/governance/proposal_intake_workflow.md) -- Triage and review process for bills
+- [Voting Lifecycle](docs/governance/voting_lifecycle.md) -- Voting, tally, and decision recording
+- [Contributor Guide](docs/governance/contributor_guide.md) -- How to propose and vote
 
 ## Proposing a Bill
 
@@ -44,6 +47,8 @@ To propose a new law, amendment, or repeal, open a GitHub Issue using the approp
 - [Amendment](../../issues/new?template=BILL_AMENDMENT.yml) -- Propose changes to an existing law
 - [Repeal](../../issues/new?template=BILL_REPEAL.yml) -- Propose removing an existing law
 - [Feedback](../../issues/new?template=FEEDBACK.yml) -- Provide feedback on laws or process
+
+See `docs/governance/contributor_guide.md` for the full proposal and voting guide.
 
 ## Syncing
 
@@ -103,6 +108,8 @@ senate/
     overrides/             # Executive override records
   votes/
     README.md              # Voting process documentation
+    decisions/             # Decision records
+    tallies/               # Vote tally archives
   sync/
     README.md              # Sprint sync protocol
     manifest.json          # Current law manifest with hashes

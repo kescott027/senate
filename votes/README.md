@@ -2,7 +2,7 @@
 
 ## Voting Process
 
-Voting on bills happens on **GitHub Issues** via structured comments, not in this directory. Each bill issue is labeled `voting-open` when ready for votes.
+Voting on bills happens on **GitHub Issues** via structured comments, not in this directory. Each bill issue is labeled `voting-open` when ready for votes. For full lifecycle details, see `docs/governance/voting_lifecycle.md`.
 
 ## Vote Format
 
@@ -17,7 +17,12 @@ reason: <brief justification>
 
 ## This Directory
 
-This directory is reserved for **vote tally archives** if needed. When a bill's voting period closes, a tally record may be stored here for historical reference.
+This directory stores vote artifacts:
+
+- `votes/tallies/` — vote tally archives
+- `votes/decisions/` — decision records
+
+Templates live in `templates/vote_tally.md` and `templates/decision_record.md`.
 
 ## Thresholds
 

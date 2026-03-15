@@ -10,10 +10,10 @@ Document a step-by-step process for how proposals are submitted, triaged, schedu
 Constituents and maintainers benefit from define bill intake and triage workflow.
 
 ## Acceptance criteria
-- [ ] A dedicated section (new doc or README section) defines proposal states and required labels.
-- [ ] Entry criteria for review and voting are explicit and testable.
-- [ ] Workflow references the bill issue templates and LAW-012.
-- [ ] Triage expectations (who, when, how) are defined.
+- [x] A dedicated section (new doc or README section) defines proposal states and required labels.
+- [x] Entry criteria for review and voting are explicit and testable.
+- [x] Workflow references the bill issue templates and LAW-012.
+- [x] Triage expectations (who, when, how) are defined.
 
 ## Non-functional requirements
 - Security: No secret leakage; follow LAW-004 for token handling.
@@ -40,8 +40,15 @@ Revert the changes to restore prior governance documentation.
 - Medium
 
 ## Definition of Done checklist
-- [ ] AC met
-- [ ] Tests added + passing
-- [ ] Lint/format/type checks pass
-- [ ] Security checks pass
-- [ ] Docs updated
+- [x] AC met
+- [x] Tests added + passing (N/A — docs)
+- [x] Lint/format/type checks pass (N/A — docs)
+- [x] Security checks pass (N/A — docs)
+- [x] Docs updated
+
+## Evidence
+- `docs/governance/proposal_intake_workflow.md`
+- `.github/ISSUE_TEMPLATE/BILL_NEW_LAW.yml`
+- `.github/ISSUE_TEMPLATE/BILL_AMENDMENT.yml`
+- `.github/ISSUE_TEMPLATE/BILL_REPEAL.yml`
+- `laws/active/LAW-012_bill-submission-process.md`

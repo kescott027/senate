@@ -10,9 +10,9 @@ Provide contributor-facing documentation that explains how to propose a bill and
 Constituents and maintainers benefit from update contributor guidance for proposing and voting.
 
 ## Acceptance criteria
-- [ ] README (or a dedicated guide) links to proposal and voting instructions.
-- [ ] Examples show correct formatting for a vote comment.
-- [ ] Guidance includes timelines and review windows.
+- [x] README (or a dedicated guide) links to proposal and voting instructions.
+- [x] Examples show correct formatting for a vote comment.
+- [x] Guidance includes timelines and review windows.
 
 ## Non-functional requirements
 - Security: No secret leakage; follow LAW-004 for token handling.
@@ -39,8 +39,14 @@ Revert the changes to restore prior governance documentation.
 - Low
 
 ## Definition of Done checklist
-- [ ] AC met
-- [ ] Tests added + passing
-- [ ] Lint/format/type checks pass
-- [ ] Security checks pass
-- [ ] Docs updated
+- [x] AC met
+- [x] Tests added + passing (N/A — docs)
+- [x] Lint/format/type checks pass (N/A — docs)
+- [x] Security checks pass (N/A — docs)
+- [x] Docs updated
+
+## Evidence
+- `docs/governance/contributor_guide.md`
+- `docs/governance/proposal_intake_workflow.md`
+- `docs/governance/voting_lifecycle.md`
+- `README.md`
