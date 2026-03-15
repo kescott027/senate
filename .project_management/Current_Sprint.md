@@ -6,19 +6,24 @@ Sprint-005
 
 ## Sprint Goal
 
-TBD
+Deliver bootstrap verification and edge-case guidance to strengthen onboarding reliability.
 
 ## Selected Stories
 
-None yet.
+- STORY-0101 - Provide automated bootstrap verification script
+- STORY-0102 - Provide example bootstrap transcript
+- STORY-0103 - Clarify environment detection edge cases
+- STORY-0104 - Provide guidance for no-GitHub environments
 
 ## Rationale
 
-TBD
+Highest-priority P1 items to harden bootstrap and reduce onboarding ambiguity.
 
 ## Risks
 
-TBD
+- Verification script scope creep.
+- Offline guidance may drift from actual bootstrap flow.
+- Example transcript may go stale if instructions change.
 
 ## Blockers
 
@@ -26,7 +31,7 @@ None.
 
 ## Acceptance Summary
 
-TBD
+Verification script documented and runnable; bootstrap transcript and edge-case guidance published; offline bootstrap path documented.
 
 ## Definition of Done Checklist
 

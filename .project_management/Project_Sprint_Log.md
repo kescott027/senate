@@ -52,5 +52,5 @@ Append-only sprint ledger. Add one section per sprint and never reset this file.
 
 ## Sprint-005
 - Start date: 2026-03-15
-- Goal: TBD
-- Included stories: TBD
+- Goal: Deliver bootstrap verification and edge-case guidance to strengthen onboarding reliability.
+- Included stories: STORY-0101, STORY-0102, STORY-0103, STORY-0104

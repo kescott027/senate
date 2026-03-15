@@ -1,4 +1,4 @@
-# Sprint 005 — TBD
+# Sprint 005 — Bootstrap Verification + Edge Cases
 
 ## Sprint Number
 
@@ -14,11 +14,14 @@ TBD
 
 ## Goal
 
-TBD
+Deliver bootstrap verification and environment edge-case guidance to strengthen Phase 2 onboarding reliability.
 
 ## Included Stories
 
-- TBD
+- STORY-0101 - Provide automated bootstrap verification script
+- STORY-0102 - Provide example bootstrap transcript
+- STORY-0103 - Clarify environment detection edge cases
+- STORY-0104 - Provide guidance for no-GitHub environments
 
 ## Files Touched
 

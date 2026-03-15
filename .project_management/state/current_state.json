@@ -1,9 +1,14 @@
 {
   "phase": 2,
   "active_sprint": "Sprint-005",
-  "active_story_ids": [],
+  "active_story_ids": [
+    "STORY-0101",
+    "STORY-0102",
+    "STORY-0103",
+    "STORY-0104"
+  ],
   "blocked_story_ids": [],
   "pending_hitl_gate": null,
-  "notes": "Sprint-004 closed with voting-ready onboarding artifacts delivered. Sprint-005 initialized; scope TBD.",
-  "last_updated": "2026-03-15T22:01:36Z"
+  "notes": "Sprint-005 planned for bootstrap verification and environment edge-case guidance.",
+  "last_updated": "2026-03-15T22:05:31Z"
 }
