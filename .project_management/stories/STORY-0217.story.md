@@ -51,3 +51,4 @@ Revert research document and draft bills.
 - `docs/governance/bills/BILL-2026-03-15_amend-law-003_merge-hygiene.md`
 - `docs/governance/bills/BILL-2026-03-15_amend-law-005_coverage-gate.md`
 - `docs/governance/bills/BILL-2026-03-15_amend-law-009_intent-hil.md`
+- Bill issues: https://github.com/tecthulhu/senate/issues/2, https://github.com/tecthulhu/senate/issues/3, https://github.com/tecthulhu/senate/issues/4, https://github.com/tecthulhu/senate/issues/5, https://github.com/tecthulhu/senate/issues/6, https://github.com/tecthulhu/senate/issues/7
