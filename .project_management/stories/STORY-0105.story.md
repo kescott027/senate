@@ -10,8 +10,8 @@ Maintain a single authoritative mapping of LAW files to local rules filenames.
 Constituents and maintainers benefit from consolidate law mapping table.
 
 ## Acceptance criteria
-- [ ] Mapping table appears in a single place and is referenced elsewhere.
-- [ ] Table includes all 13 laws and filenames.
+- [x] Mapping table appears in a single place and is referenced elsewhere.
+- [x] Table includes all 13 laws and filenames.
 
 ## Non-functional requirements
 - Security: No secret leakage; follow LAW-004 for token handling.
@@ -19,7 +19,7 @@ Constituents and maintainers benefit from consolidate law mapping table.
 - Performance: N/A (documentation/process).
 
 ## Implementation notes
-See BOOTSTRAP_SENATE.md for detailed context and acceptance criteria.
+Created a dedicated law mapping doc and referenced it from bootstrap guides.
 
 ## Test plan
 - Unit: N/A (docs/process)
@@ -38,8 +38,14 @@ Revert the changes to restore prior governance documentation.
 - Low
 
 ## Definition of Done checklist
-- [ ] AC met
-- [ ] Tests added + passing
-- [ ] Lint/format/type checks pass
-- [ ] Security checks pass
-- [ ] Docs updated
+- [x] AC met
+- [x] Tests added + passing (N/A — docs)
+- [x] Lint/format/type checks pass (N/A — docs)
+- [x] Security checks pass (N/A — docs)
+- [x] Docs updated
+
+## Evidence
+- `docs/governance/law_mapping.md`
+- `project_management_bootstrapping.md`
+- `project_management_bootstrapping_existing.md`
+- PR: https://github.com/tecthulhu/senate/pull/19

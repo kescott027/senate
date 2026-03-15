@@ -1,8 +1,8 @@
-# Sprint 006 — Law Mapping + Manifest Validation
+# Sprint 007 — Executive Overrides + Onboarding FAQ
 
 ## Sprint Number
 
-Sprint-006
+Sprint-007
 
 ## Start Date
 
@@ -14,13 +14,12 @@ TBD
 
 ## Goal
 
-Consolidate law mapping references and add guardrails for manifest/version accuracy to prevent drift.
+Clarify executive override workflow and provide a concise onboarding FAQ to reduce constituent confusion.
 
 ## Included Stories
 
-- STORY-0105 - Consolidate law mapping table
-- STORY-0106 - Add validation for law hash changes
-- STORY-0107 - Define versioning strategy for laws
+- STORY-0108 - Clarify executive override process
+- STORY-0109 - Add onboarding FAQ
 
 ## Files Touched
 
@@ -50,7 +49,7 @@ Consolidate law mapping references and add guardrails for manifest/version accur
 
 - Current phase: Phase 2 (Production readiness)
 - Phase goals status (on-track / at-risk / blocked): On-track
-- Critical path status: Reduce onboarding drift via manifest and mapping validation.
+- Critical path status: Reduce ambiguity in overrides and bootstrap troubleshooting.
 - Phase gate checklist status (if phase-ending): N/A
 - Phase-end report link (if phase-ending): N/A
 
