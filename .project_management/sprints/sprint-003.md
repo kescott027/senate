@@ -32,7 +32,7 @@ Define the core proposal intake and voting workflow, including decision recordin
 - STORY-0112: In progress.
 - STORY-0113: In progress.
 - STORY-0114: In progress.
-- STORY-0218: In progress — PR #9 open; awaiting CI + merge.
+- STORY-0218: Done — PR #9 merged.
 
 ## Blockers
 

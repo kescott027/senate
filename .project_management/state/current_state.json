@@ -11,6 +11,6 @@
   ],
   "blocked_story_ids": [],
   "pending_hitl_gate": null,
-  "notes": "Sprint-003 active; PR #9 open for STORY-0218; Phase 2 law proposal and voting system definition in progress.",
-  "last_updated": "2026-03-15T20:25:14Z"
+  "notes": "Sprint-003 active; STORY-0218 complete (PR #9 merged); Phase 2 law proposal and voting system definition in progress.",
+  "last_updated": "2026-03-15T20:30:05Z"
 }
