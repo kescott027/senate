@@ -44,13 +44,17 @@ The body of the override document should contain:
 - Any conditions or constraints on the override
 - For suspensions: the expiry date and what triggers reinstatement
 
+### Template
+
+Use `executive/overrides/EXEC-000_template.md` as the starting point for new overrides. It includes the required frontmatter plus a follow-up checklist.
+
 ## Process
 
-1. Executive opens a GitHub Issue using the `EXECUTIVE_OVERRIDE` template (or acts directly).
-2. Override file is created in `executive/overrides/`.
-3. Affected law files are updated (status changes, moved to repealed, etc.).
-4. `sync/manifest.json` is updated to reflect the change.
-5. Constituents are notified via the manifest sync process.
+1. Executive opens a GitHub Issue using the `EXECUTIVE_OVERRIDE` template (optional but recommended).
+2. Create the override record in `executive/overrides/` using the template.
+3. Update affected law files (status changes, moved to repealed, etc.).
+4. Update `sync/manifest.json` and run `python3 scripts/verify_manifest_hashes.py`.
+5. Notify constituents through the next sprint sync (manifest update).
 
 ## Interaction with Voting Lifecycle
 
