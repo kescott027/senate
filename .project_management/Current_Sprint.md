@@ -2,30 +2,23 @@
 
 ## Sprint Number
 
-Sprint-004
+Sprint-005
 
 ## Sprint Goal
 
-Enable voting-ready onboarding for constituents with readiness criteria, notification path, and sync gating.
+TBD
 
 ## Selected Stories
 
-- STORY-0115 - Constituent onboarding kit (voting-ready)
-- STORY-0116 - Voting readiness checklist
-- STORY-0117 - First vote walkthrough
-- STORY-0118 - Constituent identity canonicalization
-- STORY-0119 - Voting notification path
-- STORY-0124 - Voting eligibility gate in sync protocol
+None yet.
 
 ## Rationale
 
-Prioritize the fastest path to onboard voting constituents and codify readiness gates for Phase 2 adoption.
+TBD
 
 ## Risks
 
-- Scope creep across docs and templates.
-- Ambiguity in canonical identity format.
-- Missing alignment with existing sync workflow expectations.
+TBD
 
 ## Blockers
 
@@ -33,7 +26,7 @@ None.
 
 ## Acceptance Summary
 
-Onboarding kit, readiness checklist, notification path, and sync gate are documented and linked from core entrypoints.
+TBD
 
 ## Definition of Done Checklist
 
