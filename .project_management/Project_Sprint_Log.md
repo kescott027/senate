@@ -54,3 +54,11 @@ Append-only sprint ledger. Add one section per sprint and never reset this file.
 - Start date: 2026-03-15
 - Goal: Deliver bootstrap verification and edge-case guidance to strengthen onboarding reliability.
 - Included stories: STORY-0101, STORY-0102, STORY-0103, STORY-0104
+- End date: 2026-03-15
+- Outcome: Sprint-005 closed; bootstrap verification script and edge-case/offline guidance delivered.
+- Rating: 0.8 (see ratings log).
+
+## Sprint-006
+- Start date: 2026-03-15
+- Goal: Consolidate law mapping references and add guardrails for manifest/version accuracy to prevent drift.
+- Included stories: STORY-0105, STORY-0106, STORY-0107

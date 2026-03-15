@@ -1,14 +1,13 @@
 {
   "phase": 2,
-  "active_sprint": "Sprint-005",
+  "active_sprint": "Sprint-006",
   "active_story_ids": [
-    "STORY-0101",
-    "STORY-0102",
-    "STORY-0103",
-    "STORY-0104"
+    "STORY-0105",
+    "STORY-0106",
+    "STORY-0107"
   ],
   "blocked_story_ids": [],
   "pending_hitl_gate": null,
-  "notes": "Sprint-005 planned for bootstrap verification and environment edge-case guidance.",
-  "last_updated": "2026-03-15T22:05:31Z"
+  "notes": "Sprint-006 planned for law mapping consolidation and manifest/version validation.",
+  "last_updated": "2026-03-15T22:25:30Z"
 }

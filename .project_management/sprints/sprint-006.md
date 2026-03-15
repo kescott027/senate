@@ -1,8 +1,8 @@
-# Sprint 005 — Bootstrap Verification + Edge Cases
+# Sprint 006 — Law Mapping + Manifest Validation
 
 ## Sprint Number
 
-Sprint-005
+Sprint-006
 
 ## Start Date
 
@@ -14,24 +14,23 @@ TBD
 
 ## Goal
 
-Deliver bootstrap verification and environment edge-case guidance to strengthen Phase 2 onboarding reliability.
+Consolidate law mapping references and add guardrails for manifest/version accuracy to prevent drift.
 
 ## Included Stories
 
-- STORY-0101 - Provide automated bootstrap verification script
-- STORY-0102 - Provide example bootstrap transcript
-- STORY-0103 - Clarify environment detection edge cases
-- STORY-0104 - Provide guidance for no-GitHub environments
+- STORY-0105 - Consolidate law mapping table
+- STORY-0106 - Add validation for law hash changes
+- STORY-0107 - Define versioning strategy for laws
 
 ## Files Touched
 
-- path/to/file
+- TBD
 
 ## Notes (Architecture/Security)
 
 - Architecture notes:
 - Security notes:
-- Decision matrix references:
+- Decision matrix references: .project_management/Decision_Matrix.md
 
 ## Test Results
 
@@ -49,11 +48,11 @@ Deliver bootstrap verification and environment edge-case guidance to strengthen 
 
 ## Phase/MVP Progress
 
-- Current phase:
-- Phase goals status (on-track / at-risk / blocked):
-- Critical path status:
-- Phase gate checklist status (if phase-ending):
-- Phase-end report link (if phase-ending):
+- Current phase: Phase 2 (Production readiness)
+- Phase goals status (on-track / at-risk / blocked): On-track
+- Critical path status: Reduce onboarding drift via manifest and mapping validation.
+- Phase gate checklist status (if phase-ending): N/A
+- Phase-end report link (if phase-ending): N/A
 
 ## Sprint Review Rating
 

@@ -10,8 +10,8 @@ Document how the initiator handles repos with non-code content or unusual struct
 Constituents and maintainers benefit from clarify environment detection edge cases.
 
 ## Acceptance criteria
-- [ ] Edge cases described in initiator or a linked doc.
-- [ ] Decision logic is unambiguous and testable.
+- [x] Edge cases described in initiator or a linked doc.
+- [x] Decision logic is unambiguous and testable.
 
 ## Non-functional requirements
 - Security: No secret leakage; follow LAW-004 for token handling.
@@ -19,7 +19,7 @@ Constituents and maintainers benefit from clarify environment detection edge cas
 - Performance: N/A (documentation/process).
 
 ## Implementation notes
-See BOOTSTRAP_SENATE.md for detailed context and acceptance criteria.
+Documented edge-case decision logic in a dedicated governance doc and linked it from README.
 
 ## Test plan
 - Unit: N/A (docs/process)
@@ -38,8 +38,13 @@ Revert the changes to restore prior governance documentation.
 - Low
 
 ## Definition of Done checklist
-- [ ] AC met
-- [ ] Tests added + passing
-- [ ] Lint/format/type checks pass
-- [ ] Security checks pass
-- [ ] Docs updated
+- [x] AC met
+- [x] Tests added + passing (N/A — docs)
+- [x] Lint/format/type checks pass (N/A — docs)
+- [x] Security checks pass (N/A — docs)
+- [x] Docs updated
+
+## Evidence
+- `docs/governance/environment_detection_edge_cases.md`
+- `README.md` (Quick Links entry)
+- PR: https://github.com/tecthulhu/senate/pull/17

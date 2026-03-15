@@ -5,7 +5,7 @@ This file is the authoritative backlog for all planned work. Stories are listed 
 ## Backlog Index
 
 - Last updated: 2026-03-15
-- Total story count: 29
+- Total story count: 48
 - Highest story ID present: STORY-0218
 
 ## Story Template (Must Be Used)
@@ -34,52 +34,6 @@ A story is "Done" ONLY when:
 No P0 items pending.
 
 ## P1 (Important)
-
-- **ID:** STORY-0101
-- **Title:** Provide automated bootstrap verification script
-- **Description:** Add a script to validate that a freshly bootstrapped repo contains all required artifacts.
-- **Acceptance Criteria:**
-  - Script checks for `.project_management/` structure, laws, sync file, and AI entrypoint.
-  - Script exits non-zero on missing or malformed files.
-  - Document how to run it after bootstrap.
-- **Dependencies:** STORY-0005, STORY-0006
-- **Risk:** Medium
-- **Architectural Impact:** Low
-- **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
-
-- **ID:** STORY-0102
-- **Title:** Provide example bootstrap transcript
-- **Description:** Create a short, real example showing a bootstrap session and resulting files.
-- **Acceptance Criteria:**
-  - Example shows the single-line instruction used.
-  - Example lists resulting files and key outputs.
-  - Example avoids leaking secrets or tokens.
-- **Dependencies:** STORY-0012
-- **Risk:** Low
-- **Architectural Impact:** Low
-- **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
-
-- **ID:** STORY-0103
-- **Title:** Clarify environment detection edge cases
-- **Description:** Document how the initiator handles repos with non-code content or unusual structures.
-- **Acceptance Criteria:**
-  - Edge cases described in initiator or a linked doc.
-  - Decision logic is unambiguous and testable.
-- **Dependencies:** STORY-0002
-- **Risk:** Low
-- **Architectural Impact:** Low
-- **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
-
-- **ID:** STORY-0104
-- **Title:** Provide guidance for no-GitHub environments
-- **Description:** Document how to bootstrap in air-gapped or non-GitHub environments.
-- **Acceptance Criteria:**
-  - README includes a path for manual download and local use.
-  - Integrity verification still works offline with local files.
-- **Dependencies:** STORY-0003
-- **Risk:** Medium
-- **Architectural Impact:** Low
-- **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
 
 - **ID:** STORY-0105
 - **Title:** Consolidate law mapping table
@@ -221,6 +175,26 @@ No P0 items pending.
 - **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
 
 ## Archive (Completed)
+
+- **ID:** STORY-0101
+- **Title:** Provide automated bootstrap verification script
+- **Closed in sprint:** Sprint-005
+- **Evidence:** `.project_management/completed_sprints/sprint-005.md`
+
+- **ID:** STORY-0102
+- **Title:** Provide example bootstrap transcript
+- **Closed in sprint:** Sprint-005
+- **Evidence:** `.project_management/completed_sprints/sprint-005.md`
+
+- **ID:** STORY-0103
+- **Title:** Clarify environment detection edge cases
+- **Closed in sprint:** Sprint-005
+- **Evidence:** `.project_management/completed_sprints/sprint-005.md`
+
+- **ID:** STORY-0104
+- **Title:** Provide guidance for no-GitHub environments
+- **Closed in sprint:** Sprint-005
+- **Evidence:** `.project_management/completed_sprints/sprint-005.md`
 
 - **ID:** STORY-0115
 - **Title:** Constituent onboarding kit (voting-ready)

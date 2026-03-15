@@ -2,28 +2,27 @@
 
 ## Sprint Number
 
-Sprint-005
+Sprint-006
 
 ## Sprint Goal
 
-Deliver bootstrap verification and edge-case guidance to strengthen onboarding reliability.
+Consolidate law mapping references and add guardrails for manifest/version accuracy to prevent drift.
 
 ## Selected Stories
 
-- STORY-0101 - Provide automated bootstrap verification script
-- STORY-0102 - Provide example bootstrap transcript
-- STORY-0103 - Clarify environment detection edge cases
-- STORY-0104 - Provide guidance for no-GitHub environments
+- STORY-0105 - Consolidate law mapping table
+- STORY-0106 - Add validation for law hash changes
+- STORY-0107 - Define versioning strategy for laws
 
 ## Rationale
 
-Highest-priority P1 items to harden bootstrap and reduce onboarding ambiguity.
+Next P1 items to reduce law/manifest drift and clarify versioning.
 
 ## Risks
 
-- Verification script scope creep.
-- Offline guidance may drift from actual bootstrap flow.
-- Example transcript may go stale if instructions change.
+- Validation scope creep or false positives.
+- Mapping consolidation may require multiple doc updates.
+- Versioning guidance must align with manifest expectations.
 
 ## Blockers
 
@@ -31,7 +30,7 @@ None.
 
 ## Acceptance Summary
 
-Verification script documented and runnable; bootstrap transcript and edge-case guidance published; offline bootstrap path documented.
+Law mapping table consolidated; manifest hash validation defined; law versioning strategy documented.
 
 ## Definition of Done Checklist
 

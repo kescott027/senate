@@ -10,9 +10,9 @@ Create a short, real example showing a bootstrap session and resulting files.
 Constituents and maintainers benefit from provide example bootstrap transcript.
 
 ## Acceptance criteria
-- [ ] Example shows the single-line instruction used.
-- [ ] Example lists resulting files and key outputs.
-- [ ] Example avoids leaking secrets or tokens.
+- [x] Example shows the single-line instruction used.
+- [x] Example lists resulting files and key outputs.
+- [x] Example avoids leaking secrets or tokens.
 
 ## Non-functional requirements
 - Security: No secret leakage; follow LAW-004 for token handling.
@@ -20,7 +20,7 @@ Constituents and maintainers benefit from provide example bootstrap transcript.
 - Performance: N/A (documentation/process).
 
 ## Implementation notes
-See BOOTSTRAP_SENATE.md for detailed context and acceptance criteria.
+Published a condensed example transcript and linked it from README quick links.
 
 ## Test plan
 - Unit: N/A (docs/process)
@@ -39,8 +39,13 @@ Revert the changes to restore prior governance documentation.
 - Low
 
 ## Definition of Done checklist
-- [ ] AC met
-- [ ] Tests added + passing
-- [ ] Lint/format/type checks pass
-- [ ] Security checks pass
-- [ ] Docs updated
+- [x] AC met
+- [x] Tests added + passing (N/A — docs)
+- [x] Lint/format/type checks pass (N/A — docs)
+- [x] Security checks pass (N/A — docs)
+- [x] Docs updated
+
+## Evidence
+- `docs/governance/bootstrap_transcript_example.md`
+- `README.md` (Quick Links entry)
+- PR: https://github.com/tecthulhu/senate/pull/17
