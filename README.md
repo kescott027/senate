@@ -12,7 +12,7 @@ Fetch https://raw.githubusercontent.com/kescott027/senate/main/bootstrap/initiat
 
 The AI will detect your environment (new repo, existing codebase, or empty directory), download the governance framework, and walk you through setup.
 
-> **No AI web access?** Run `curl -sL https://raw.githubusercontent.com/kescott027/senate/main/bootstrap/initiator.md` and paste the output to your AI with: "Execute the instructions in this document. This is the project directory."
+> **No AI web access?** Run `curl -sL https://raw.githubusercontent.com/kescott027/senate/main/bootstrap/initiator.md` and paste the output to your AI with: "Execute the instructions in this document. This is the project directory." See `docs/governance/offline_bootstrap.md` for the offline path.
 
 ---
 
@@ -35,6 +35,10 @@ The executive (`kescott027`) can also enact, repeal, veto, suspend, or amend any
 - [Membership](MEMBERSHIP.md) -- Active constituent projects
 - [Voting Onboarding Kit](docs/governance/voting_onboarding_kit.md) -- Fast path to voting readiness
 - [Voting Readiness Checklist](docs/governance/voting_readiness_checklist.md) -- Ready/not-ready gate before voting
+- [Bootstrap Verification Script](scripts/verify_bootstrap.py) -- Validates required bootstrap files and law hashes
+- [Environment Detection Edge Cases](docs/governance/environment_detection_edge_cases.md) -- How bootstrapping handles tricky states
+- [Offline Bootstrap Guide](docs/governance/offline_bootstrap.md) -- No-network or restricted-network setup
+- [Bootstrap Transcript Example](docs/governance/bootstrap_transcript_example.md) -- Sample AI exchange and expected outputs
 - [Sync Protocol](sync/README.md) -- How constituent projects stay in sync with senate laws
 - [Executive Overrides](executive/README.md) -- How executive override power works
 - [Proposal Intake Workflow](docs/governance/proposal_intake_workflow.md) -- Triage and review process for bills
@@ -93,6 +97,14 @@ The senate provides a complete bootstrapping framework for bringing projects und
 | Existing repo with code and history | `project_management_bootstrapping_existing.md` |
 | Existing `.project_management/` needs senate integration | See "Governance Upgrade Path" appendix in the existing project guide |
 
+## Verify Bootstrap
+
+After bootstrapping, validate required files and law hashes:
+
+```bash
+python3 scripts/verify_bootstrap.py
+```
+
 ## Repository Structure
 
 ```
@@ -120,6 +132,8 @@ senate/
     initiator.md           # Self-contained install initiator (the ONE file)
     prompts/
       install-prompt.md    # Copy-paste command block for users
+  scripts/
+    verify_bootstrap.py    # Verify bootstrap files and law hashes
   project_management_skeleton/  # Clean .project_management/ template files
   BOOTSTRAP.md             # Project bootstrap input template
   project_management_bootstrapping.md           # Bootstrap guide (new projects)
