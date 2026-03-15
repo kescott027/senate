@@ -1,9 +1,16 @@
 {
   "phase": 2,
   "active_sprint": "Sprint-004",
-  "active_story_ids": [],
+  "active_story_ids": [
+    "STORY-0115",
+    "STORY-0116",
+    "STORY-0117",
+    "STORY-0118",
+    "STORY-0119",
+    "STORY-0124"
+  ],
   "blocked_story_ids": [],
   "pending_hitl_gate": null,
-  "notes": "Sprint-004 initialized; scope TBD. Sprint-003 closed with Phase 2 proposal/voting workflow documentation complete.",
-  "last_updated": "2026-03-15T20:47:33Z"
+  "notes": "Sprint-004 planned for voting-ready onboarding kit, readiness checklist, notification path, and sync gate. Sprint-003 closed with Phase 2 proposal/voting workflow documentation complete.",
+  "last_updated": "2026-03-15T20:57:10Z"
 }

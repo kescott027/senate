@@ -44,5 +44,5 @@ Append-only sprint ledger. Add one section per sprint and never reset this file.
 
 ## Sprint-004
 - Start date: 2026-03-15
-- Goal: TBD
-- Included stories: TBD
+- Goal: Enable voting-ready onboarding for constituents with readiness criteria, notification path, and sync gating.
+- Included stories: STORY-0115, STORY-0116, STORY-0117, STORY-0118, STORY-0119, STORY-0124

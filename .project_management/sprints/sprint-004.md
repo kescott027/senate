@@ -1,4 +1,4 @@
-# Sprint 004 — TBD
+# Sprint 004 — Voting Onboarding Fast-Path
 
 ## Sprint Number
 
@@ -14,27 +14,32 @@ TBD
 
 ## Goal
 
-TBD
+Enable voting-ready constituent onboarding by defining readiness criteria, notification path, and sync gating.
 
 ## Included Stories
 
-- TBD
+- STORY-0115 - Constituent onboarding kit (voting-ready)
+- STORY-0116 - Voting readiness checklist
+- STORY-0117 - First vote walkthrough
+- STORY-0118 - Constituent identity canonicalization
+- STORY-0119 - Voting notification path
+- STORY-0124 - Voting eligibility gate in sync protocol
 
 ## Files Touched
 
-- TBD
+- TBD (update during sprint)
 
 ## Notes (Architecture/Security)
 
-- Architecture notes: TBD
-- Security notes: TBD
+- Architecture notes: Documentation-only changes; no architecture changes expected.
+- Security notes: Ensure LAW-004 compliance; no secrets in docs/examples.
 - Decision matrix references: .project_management/Decision_Matrix.md
 
 ## Test Results
 
-- Unit tests: TBD
+- Unit tests: TBD (docs-only expected)
 - Integration tests: TBD
-- Load/performance tests: TBD
+- Load/performance tests: N/A (docs)
 - Security checks: TBD
 
 ## Review Summary
@@ -46,9 +51,9 @@ TBD
 
 ## Phase/MVP Progress
 
-- Current phase: TBD
-- Phase goals status (on-track / at-risk / blocked): TBD
-- Critical path status: TBD
+- Current phase: Phase 2 (Production readiness)
+- Phase goals status (on-track / at-risk / blocked): On-track
+- Critical path status: Voting-ready onboarding path defined and gated.
 - Phase gate checklist status (if phase-ending): TBD
 - Phase-end report link (if phase-ending): TBD
 
