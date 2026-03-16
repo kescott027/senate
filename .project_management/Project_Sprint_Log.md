@@ -87,3 +87,12 @@ Append-only sprint ledger. Add one section per sprint and never reset this file.
 - Goal: Publish an example constituent repo for reference onboarding.
 - Included stories: STORY-0202
 - Blocker opened: BLOCKER_2026-03-15_Sprint-009_STORY-0202_ExampleRepo (repo location approval required)
+- Blocker closed: BLOCKER_2026-03-15_Sprint-009_STORY-0202_ExampleRepo (repo created)
+- End date: 2026-03-15
+- Outcome: Sprint-009 closed; example constituent repo published.
+- Rating: 0.8 (see ratings log).
+
+## Sprint-010
+- Start date: 2026-03-15
+- Goal: Provide multilingual bootstrap prompts for non-English constituents.
+- Included stories: STORY-0203

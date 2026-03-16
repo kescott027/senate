@@ -10,8 +10,8 @@ Publish a minimal example repo that has been bootstrapped.
 Constituents and maintainers benefit from add example constituent repo.
 
 ## Acceptance criteria
-- [ ] Example repo contains `.project_management/` and `.senate-sync.json`.
-- [ ] README links back to this repo.
+- [x] Example repo contains `.project_management/` and `.senate-sync.json`.
+- [x] README links back to this repo.
 
 ## Non-functional requirements
 - Security: No secret leakage; follow LAW-004 for token handling.
@@ -19,7 +19,7 @@ Constituents and maintainers benefit from add example constituent repo.
 - Performance: N/A (documentation/process).
 
 ## Implementation notes
-See BOOTSTRAP_SENATE.md for detailed context and acceptance criteria.
+Created `tecthulhu/senate-forum` and populated it with the bootstrap scaffold and law sync state.
 
 ## Test plan
 - Unit: N/A (docs/process)
@@ -38,8 +38,13 @@ Revert the changes to restore prior governance documentation.
 - Low
 
 ## Definition of Done checklist
-- [ ] AC met
-- [ ] Tests added + passing
-- [ ] Lint/format/type checks pass
-- [ ] Security checks pass
-- [ ] Docs updated
+- [x] AC met
+- [x] Tests added + passing (manual verification)
+- [x] Lint/format/type checks pass (N/A — docs)
+- [x] Security checks pass (N/A — docs)
+- [x] Docs updated
+
+## Evidence
+- Repo: https://github.com/tecthulhu/senate-forum
+- Contains `.project_management/` and `.senate-sync.json` on main.
+- README links back to senate repo.

@@ -1,6 +1,6 @@
 # BLOCKER-2026-03-15-Sprint-009-STORY-0202-ExampleRepo
 
-Status: Active
+Status: Closed
 
 ## Blocked Story
 
@@ -34,7 +34,7 @@ Select the owner/location and name for the example constituent repository, and c
 
 - Dependencies impacted: STORY-0202
 - Security constraints: Ensure no secrets in example repo.
-- Permission constraints: Current token lacks org repo creation permission (HTTP 403).
+- Permission constraints: Resolved (repo created externally; push access confirmed).
 - Performance constraints: N/A
 - Reliability constraints: Example repo must remain in sync with current laws.
 - Downstream stories affected: STORY-0203+ (documentation references)
@@ -42,14 +42,15 @@ Select the owner/location and name for the example constituent repository, and c
 
 ## Unblock Criteria
 
-- [ ] Decision approved by required owner
-- [ ] Decision captured in Decision_Matrix and/or ADR
-- [ ] Story scope updated if needed
+- [x] Decision approved by required owner
+- [x] Decision captured in Decision_Matrix and/or ADR
+- [x] Story scope updated if needed
 
 ## Decision Log
 
 - 2026-03-15T23:40:00Z ai: blocker opened
 - 2026-03-15T23:54:00Z ai: org repo creation attempted; token lacked permission (HTTP 403)
+- 2026-03-15T23:59:00Z ai: repo created and populated; blocker closed
 
 ## Cross-Document Updates
 

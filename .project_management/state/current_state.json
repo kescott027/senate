@@ -1,13 +1,11 @@
 {
   "phase": 2,
-  "active_sprint": "Sprint-009",
+  "active_sprint": "Sprint-010",
   "active_story_ids": [
-    "STORY-0202"
+    "STORY-0203"
   ],
-  "blocked_story_ids": [
-    "STORY-0202"
-  ],
+  "blocked_story_ids": [],
   "pending_hitl_gate": null,
-  "notes": "Sprint-009 blocked pending example repo location/ownership approval.",
-  "last_updated": "2026-03-16T00:35:18Z"
+  "notes": "Sprint-010 planned for multilingual bootstrap prompts.",
+  "last_updated": "2026-03-16T01:33:44Z"
 }

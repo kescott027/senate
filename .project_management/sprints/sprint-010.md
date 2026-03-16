@@ -1,8 +1,8 @@
-# Sprint 009 — Example Constituent Repo
+# Sprint 010 — Multilingual Bootstrap Prompts
 
 ## Sprint Number
 
-Sprint-009
+Sprint-010
 
 ## Start Date
 
@@ -14,11 +14,11 @@ TBD
 
 ## Goal
 
-Publish a minimal example constituent repo that demonstrates senate bootstrap outputs.
+Provide translated bootstrap prompts (single-line + no-web fallback) for non-English teams.
 
 ## Included Stories
 
-- STORY-0202 - Add example constituent repo
+- STORY-0203 - Provide multilingual bootstrap prompts
 
 ## Files Touched
 
@@ -26,8 +26,8 @@ Publish a minimal example constituent repo that demonstrates senate bootstrap ou
 
 ## Notes (Architecture/Security)
 
-- Architecture notes: Blocked pending decision on example repo location/ownership.
-- Security notes: Example repo must avoid secrets and include only public-safe content.
+- Architecture notes:
+- Security notes:
 - Decision matrix references: .project_management/Decision_Matrix.md
 
 ## Test Results
@@ -48,7 +48,7 @@ Publish a minimal example constituent repo that demonstrates senate bootstrap ou
 
 - Current phase: Phase 2 (Production readiness)
 - Phase goals status (on-track / at-risk / blocked): On-track
-- Critical path status: Provide reference implementation for onboarding.
+- Critical path status: Expand onboarding reach via localized prompts.
 - Phase gate checklist status (if phase-ending): N/A
 - Phase-end report link (if phase-ending): N/A
 

@@ -41,6 +41,7 @@ The executive (`kescott027`) can also enact, repeal, veto, suspend, or amend any
 - [Bootstrap Transcript Example](docs/governance/bootstrap_transcript_example.md) -- Sample AI exchange and expected outputs
 - [Onboarding FAQ](docs/governance/onboarding_faq.md) -- Common bootstrap issues and fixes
 - [Bootstrap Helper CLI](docs/governance/bootstrap_helper_cli.md) -- Optional download helper (does not replace AI bootstrap)
+- [Example Constituent Repo](https://github.com/tecthulhu/senate-forum) -- Reference bootstrapped constituent
 - [Sync Protocol](sync/README.md) -- How constituent projects stay in sync with senate laws
 - [Executive Overrides](executive/README.md) -- How executive override power works
 - [Proposal Intake Workflow](docs/governance/proposal_intake_workflow.md) -- Triage and review process for bills

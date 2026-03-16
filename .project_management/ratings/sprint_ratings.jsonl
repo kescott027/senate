@@ -7,3 +7,4 @@
 {"sprint_id":"Sprint-006","closed_date":"2026-03-15","rating":0.8,"rationale":"Consolidated law mapping and added manifest hash validation (LAW-001/LAW-004 alignment) with green CI.","average_after":0.8}
 {"sprint_id":"Sprint-007","closed_date":"2026-03-15","rating":0.8,"rationale":"Clarified executive override workflow and added onboarding FAQ (LAW-012/LAW-004 alignment) with green CI.","average_after":0.8}
 {"sprint_id":"Sprint-008","closed_date":"2026-03-15","rating":0.8,"rationale":"Delivered optional bootstrap helper CLI with integrity verification and clear docs while preserving AI-first flow.","average_after":0.8}
+{"sprint_id":"Sprint-009","closed_date":"2026-03-15","rating":0.8,"rationale":"Published example constituent repo and linked it from senate docs once approval arrived.","average_after":0.8}

@@ -37,17 +37,6 @@ No P0 items pending.
 
 ## P2 (Nice to have)
 
-- **ID:** STORY-0202
-- **Title:** Add example constituent repo
-- **Description:** Publish a minimal example repo that has been bootstrapped.
-- **Acceptance Criteria:**
-  - Example repo contains `.project_management/` and `.senate-sync.json`.
-  - README links back to this repo.
-- **Dependencies:** STORY-0012
-- **Risk:** Low
-- **Architectural Impact:** Low
-- **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
-
 - **ID:** STORY-0203
 - **Title:** Provide multilingual bootstrap prompts
 - **Description:** Provide translated bootstrap instructions for non-English teams.
@@ -158,6 +147,11 @@ No P0 items pending.
 - **Title:** Bootstrap helper CLI
 - **Closed in sprint:** Sprint-008
 - **Evidence:** `.project_management/completed_sprints/sprint-008.md`
+
+- **ID:** STORY-0202
+- **Title:** Add example constituent repo
+- **Closed in sprint:** Sprint-009
+- **Evidence:** `.project_management/completed_sprints/sprint-009.md`
 
 - **ID:** STORY-0115
 - **Title:** Constituent onboarding kit (voting-ready)

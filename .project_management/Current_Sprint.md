@@ -2,32 +2,32 @@
 
 ## Sprint Number
 
-Sprint-009
+Sprint-010
 
 ## Sprint Goal
 
-Publish an example constituent repo for reference onboarding.
+Provide multilingual bootstrap prompts for non-English constituents.
 
 ## Selected Stories
 
-- STORY-0202 - Add example constituent repo
+- STORY-0203 - Provide multilingual bootstrap prompts
 
 ## Rationale
 
-Provide a concrete reference repo to make onboarding expectations tangible.
+Reduce onboarding friction for non-English teams with translated prompts.
 
 ## Risks
 
-- Example repo requires new repository creation and ownership approval.
-- Risk of staleness if not maintained.
+- Translation quality and consistency across languages.
+- Keeping translated prompts in sync with updates.
 
 ## Blockers
 
-- BLOCKER_2026-03-15_Sprint-009_STORY-0202_ExampleRepo (repo creation approval required)
+None.
 
 ## Acceptance Summary
 
-Example repo published with synced laws and .project_management scaffold.
+Translated bootstrap prompts published and linked.
 
 ## Definition of Done Checklist
 
