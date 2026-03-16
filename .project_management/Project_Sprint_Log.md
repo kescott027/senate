@@ -96,3 +96,11 @@ Append-only sprint ledger. Add one section per sprint and never reset this file.
 - Start date: 2026-03-15
 - Goal: Provide multilingual bootstrap prompts for non-English constituents.
 - Included stories: STORY-0203
+- End date: 2026-03-15
+- Outcome: Sprint-010 closed; multilingual bootstrap prompts published.
+- Rating: 0.8 (see ratings log).
+
+## Sprint-011
+- Start date: 2026-03-16
+- Goal: Define self-audit scope and signals for governance gaps.
+- Included stories: STORY-0210

@@ -10,8 +10,8 @@ Provide translated bootstrap instructions for non-English teams.
 Constituents and maintainers benefit from provide multilingual bootstrap prompts.
 
 ## Acceptance criteria
-- [ ] Translations include the single-line prompt and no-web fallback.
-- [ ] Each translation references the same initiator URL.
+- [x] Translations include the single-line prompt and no-web fallback.
+- [x] Each translation references the same initiator URL.
 
 ## Non-functional requirements
 - Security: No secret leakage; follow LAW-004 for token handling.
@@ -19,7 +19,7 @@ Constituents and maintainers benefit from provide multilingual bootstrap prompts
 - Performance: N/A (documentation/process).
 
 ## Implementation notes
-See BOOTSTRAP_SENATE.md for detailed context and acceptance criteria.
+Published translations in a dedicated governance doc and linked it from README.
 
 ## Test plan
 - Unit: N/A (docs/process)
@@ -38,8 +38,13 @@ Revert the changes to restore prior governance documentation.
 - Low
 
 ## Definition of Done checklist
-- [ ] AC met
-- [ ] Tests added + passing
-- [ ] Lint/format/type checks pass
-- [ ] Security checks pass
-- [ ] Docs updated
+- [x] AC met
+- [x] Tests added + passing (N/A — docs)
+- [x] Lint/format/type checks pass (N/A — docs)
+- [x] Security checks pass (N/A — docs)
+- [x] Docs updated
+
+## Evidence
+- `docs/governance/bootstrap_translations.md`
+- `README.md` (Quick Links)
+- PR: https://github.com/tecthulhu/senate/pull/28

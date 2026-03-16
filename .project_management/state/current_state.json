@@ -1,11 +1,11 @@
 {
-  "phase": 2,
-  "active_sprint": "Sprint-010",
+  "phase": 3,
+  "active_sprint": "Sprint-011",
   "active_story_ids": [
-    "STORY-0203"
+    "STORY-0210"
   ],
   "blocked_story_ids": [],
   "pending_hitl_gate": null,
-  "notes": "Sprint-010 planned for multilingual bootstrap prompts.",
-  "last_updated": "2026-03-16T01:33:44Z"
+  "notes": "Sprint-011 planned for self-audit scope and signals.",
+  "last_updated": "2026-03-16T01:42:35Z"
 }

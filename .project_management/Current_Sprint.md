@@ -2,24 +2,24 @@
 
 ## Sprint Number
 
-Sprint-010
+Sprint-011
 
 ## Sprint Goal
 
-Provide multilingual bootstrap prompts for non-English constituents.
+Define self-audit scope and signals for governance gap detection and improvement recommendations.
 
 ## Selected Stories
 
-- STORY-0203 - Provide multilingual bootstrap prompts
+- STORY-0210 - Define self-audit scope and signals
 
 ## Rationale
 
-Reduce onboarding friction for non-English teams with translated prompts.
+Phase 3 requires a clear, safe self-audit scope before proposing or drafting bills.
 
 ## Risks
 
-- Translation quality and consistency across languages.
-- Keeping translated prompts in sync with updates.
+- Overbroad signals that cause noisy or unsafe recommendations.
+- Missing HITL gates for sensitive findings.
 
 ## Blockers
 
@@ -27,7 +27,7 @@ None.
 
 ## Acceptance Summary
 
-Translated bootstrap prompts published and linked.
+Self-audit signal spec is published with bill mapping and safety gates.
 
 ## Definition of Done Checklist
 

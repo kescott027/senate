@@ -37,17 +37,6 @@ No P0 items pending.
 
 ## P2 (Nice to have)
 
-- **ID:** STORY-0203
-- **Title:** Provide multilingual bootstrap prompts
-- **Description:** Provide translated bootstrap instructions for non-English teams.
-- **Acceptance Criteria:**
-  - Translations include the single-line prompt and no-web fallback.
-  - Each translation references the same initiator URL.
-- **Dependencies:** STORY-0001
-- **Risk:** Low
-- **Architectural Impact:** Low
-- **Notes/Evidence:** See BOOTSTRAP_SENATE.md for context.
-
 - **ID:** STORY-0210
 - **Title:** Define self-audit scope and signals
 - **Description:** Specify what the system should analyze to detect governance gaps and improvement opportunities.
@@ -152,6 +141,11 @@ No P0 items pending.
 - **Title:** Add example constituent repo
 - **Closed in sprint:** Sprint-009
 - **Evidence:** `.project_management/completed_sprints/sprint-009.md`
+
+- **ID:** STORY-0203
+- **Title:** Provide multilingual bootstrap prompts
+- **Closed in sprint:** Sprint-010
+- **Evidence:** `.project_management/completed_sprints/sprint-010.md`
 
 - **ID:** STORY-0115
 - **Title:** Constituent onboarding kit (voting-ready)
