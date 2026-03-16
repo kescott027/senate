@@ -10,9 +10,9 @@ Provide a small CLI wrapper to perform the bootstrap steps automatically.
 Constituents and maintainers benefit from bootstrap helper cli.
 
 ## Acceptance criteria
-- [ ] CLI performs integrity verification and downloads skeleton + laws.
-- [ ] CLI supports a dry-run mode.
-- [ ] Documentation explains how to install and run it.
+- [x] CLI performs integrity verification and downloads skeleton + laws.
+- [x] CLI supports a dry-run mode.
+- [x] Documentation explains how to install and run it.
 
 ## Non-functional requirements
 - Security: No secret leakage; follow LAW-004 for token handling.
@@ -20,7 +20,7 @@ Constituents and maintainers benefit from bootstrap helper cli.
 - Performance: N/A (documentation/process).
 
 ## Implementation notes
-Optional; must not replace the single-line AI instruction.
+Implemented an optional Python CLI and documented it with explicit guidance that it does not replace the AI bootstrap.
 
 ## Test plan
 - Unit: N/A (docs/process)
@@ -39,8 +39,15 @@ Revert the changes to restore prior governance documentation.
 - Medium
 
 ## Definition of Done checklist
-- [ ] AC met
-- [ ] Tests added + passing
-- [ ] Lint/format/type checks pass
-- [ ] Security checks pass
-- [ ] Docs updated
+- [x] AC met
+- [x] Tests added + passing (manual verification)
+- [x] Lint/format/type checks pass (N/A — script + docs)
+- [x] Security checks pass (N/A — script + docs)
+- [x] Docs updated
+
+## Evidence
+- `scripts/bootstrap_cli.py`
+- `docs/governance/bootstrap_helper_cli.md`
+- `README.md` (Quick Links)
+- Test run: `python3 scripts/bootstrap_cli.py --dry-run --dest /tmp/senate-bootstrap-test`
+- PR: https://github.com/tecthulhu/senate/pull/23

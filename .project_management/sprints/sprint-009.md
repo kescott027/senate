@@ -1,8 +1,8 @@
-# Sprint 008 — Bootstrap Helper CLI
+# Sprint 009 — Example Constituent Repo
 
 ## Sprint Number
 
-Sprint-008
+Sprint-009
 
 ## Start Date
 
@@ -14,11 +14,11 @@ TBD
 
 ## Goal
 
-Define and prototype a bootstrap helper CLI that automates optional setup steps without replacing the AI bootstrap path.
+Publish a minimal example constituent repo that demonstrates senate bootstrap outputs.
 
 ## Included Stories
 
-- STORY-0201 - Bootstrap helper CLI
+- STORY-0202 - Add example constituent repo
 
 ## Files Touched
 
@@ -48,7 +48,7 @@ Define and prototype a bootstrap helper CLI that automates optional setup steps 
 
 - Current phase: Phase 2 (Production readiness)
 - Phase goals status (on-track / at-risk / blocked): On-track
-- Critical path status: Optional automation to speed bootstrap without diluting governance process.
+- Critical path status: Provide reference implementation for onboarding.
 - Phase gate checklist status (if phase-ending): N/A
 - Phase-end report link (if phase-ending): N/A
 

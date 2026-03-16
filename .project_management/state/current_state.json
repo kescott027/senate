@@ -1,11 +1,11 @@
 {
   "phase": 2,
-  "active_sprint": "Sprint-008",
+  "active_sprint": "Sprint-009",
   "active_story_ids": [
-    "STORY-0201"
+    "STORY-0202"
   ],
   "blocked_story_ids": [],
   "pending_hitl_gate": null,
-  "notes": "Sprint-008 planned for bootstrap helper CLI (optional automation).",
-  "last_updated": "2026-03-15T23:35:26Z"
+  "notes": "Sprint-009 planned for example constituent repo publication.",
+  "last_updated": "2026-03-16T00:19:48Z"
 }

@@ -2,24 +2,24 @@
 
 ## Sprint Number
 
-Sprint-008
+Sprint-009
 
 ## Sprint Goal
 
-Define and prototype a bootstrap helper CLI for optional automation.
+Publish an example constituent repo for reference onboarding.
 
 ## Selected Stories
 
-- STORY-0201 - Bootstrap helper CLI
+- STORY-0202 - Add example constituent repo
 
 ## Rationale
 
-Begin the top P2 automation item to reduce manual bootstrap steps.
+Provide a concrete reference repo to make onboarding expectations tangible.
 
 ## Risks
 
-- CLI scope creep beyond optional helper.
-- Risk of undermining the single-line AI instruction if positioned poorly.
+- Example repo requires new repository creation and ownership approval.
+- Risk of staleness if not maintained.
 
 ## Blockers
 
@@ -27,7 +27,7 @@ None.
 
 ## Acceptance Summary
 
-Bootstrap helper CLI scoped, documented, and validated without replacing the AI bootstrap path.
+Example repo published with synced laws and .project_management scaffold.
 
 ## Definition of Done Checklist
 

@@ -78,3 +78,11 @@ Append-only sprint ledger. Add one section per sprint and never reset this file.
 - Start date: 2026-03-15
 - Goal: Define and prototype a bootstrap helper CLI for optional automation.
 - Included stories: STORY-0201
+- End date: 2026-03-15
+- Outcome: Sprint-008 closed; optional bootstrap helper CLI delivered.
+- Rating: 0.8 (see ratings log).
+
+## Sprint-009
+- Start date: 2026-03-15
+- Goal: Publish an example constituent repo for reference onboarding.
+- Included stories: STORY-0202
