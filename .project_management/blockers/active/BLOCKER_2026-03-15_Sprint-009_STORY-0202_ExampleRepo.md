@@ -34,6 +34,7 @@ Select the owner/location and name for the example constituent repository, and c
 
 - Dependencies impacted: STORY-0202
 - Security constraints: Ensure no secrets in example repo.
+- Permission constraints: Current token lacks org repo creation permission (HTTP 403).
 - Performance constraints: N/A
 - Reliability constraints: Example repo must remain in sync with current laws.
 - Downstream stories affected: STORY-0203+ (documentation references)
@@ -48,6 +49,7 @@ Select the owner/location and name for the example constituent repository, and c
 ## Decision Log
 
 - 2026-03-15T23:40:00Z ai: blocker opened
+- 2026-03-15T23:54:00Z ai: org repo creation attempted; token lacked permission (HTTP 403)
 
 ## Cross-Document Updates
 
