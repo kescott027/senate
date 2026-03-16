@@ -4,8 +4,10 @@
   "active_story_ids": [
     "STORY-0202"
   ],
-  "blocked_story_ids": [],
+  "blocked_story_ids": [
+    "STORY-0202"
+  ],
   "pending_hitl_gate": null,
-  "notes": "Sprint-009 planned for example constituent repo publication.",
-  "last_updated": "2026-03-16T00:19:48Z"
+  "notes": "Sprint-009 blocked pending example repo location/ownership approval.",
+  "last_updated": "2026-03-16T00:35:18Z"
 }

@@ -23,7 +23,7 @@ Provide a concrete reference repo to make onboarding expectations tangible.
 
 ## Blockers
 
-None.
+- BLOCKER_2026-03-15_Sprint-009_STORY-0202_ExampleRepo (repo creation approval required)
 
 ## Acceptance Summary
 

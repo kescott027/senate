@@ -26,8 +26,8 @@ Publish a minimal example constituent repo that demonstrates senate bootstrap ou
 
 ## Notes (Architecture/Security)
 
-- Architecture notes:
-- Security notes:
+- Architecture notes: Blocked pending decision on example repo location/ownership.
+- Security notes: Example repo must avoid secrets and include only public-safe content.
 - Decision matrix references: .project_management/Decision_Matrix.md
 
 ## Test Results
