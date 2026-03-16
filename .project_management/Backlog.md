@@ -37,18 +37,6 @@ No P0 items pending.
 
 ## P2 (Nice to have)
 
-- **ID:** STORY-0201
-- **Title:** Bootstrap helper CLI
-- **Description:** Provide a small CLI wrapper to perform the bootstrap steps automatically.
-- **Acceptance Criteria:**
-  - CLI performs integrity verification and downloads skeleton + laws.
-  - CLI supports a dry-run mode.
-  - Documentation explains how to install and run it.
-- **Dependencies:** STORY-0002, STORY-0003
-- **Risk:** Medium
-- **Architectural Impact:** Medium
-- **Notes/Evidence:** Optional; must not replace the single-line AI instruction.
-
 - **ID:** STORY-0202
 - **Title:** Add example constituent repo
 - **Description:** Publish a minimal example repo that has been bootstrapped.
@@ -165,6 +153,11 @@ No P0 items pending.
 - **Title:** Add onboarding FAQ
 - **Closed in sprint:** Sprint-007
 - **Evidence:** `.project_management/completed_sprints/sprint-007.md`
+
+- **ID:** STORY-0201
+- **Title:** Bootstrap helper CLI
+- **Closed in sprint:** Sprint-008
+- **Evidence:** `.project_management/completed_sprints/sprint-008.md`
 
 - **ID:** STORY-0115
 - **Title:** Constituent onboarding kit (voting-ready)
